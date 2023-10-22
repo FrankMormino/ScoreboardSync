@@ -6,5 +6,6 @@ google-auth-oauthlib==0.4.6
 google-auth-httplib2==0.1.0
 msal==1.14.0
 APScheduler==3.8.0
+Werkzeug==1.0.1
 WTForms==2.3.3
 twilio==7.0.0
