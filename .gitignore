@@ -1,0 +1,31 @@
+# Ignore the .env file containing sensitive information
+.env
+
+# Ignore Python compiled files and packages
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Ignore the test database file if it's created
+test.db
+
+# Ignore directories created by virtualenv
+bin/
+include/
+lib/
+lib64/
+share/
+
+# Ignore the Docker image build output
+*.dockerignore
+Dockerfile*
+docker-compose*
+*.tar
+*.tgz
+*.gz
+
+# Ignore the IDE configurations
+.idea/
+.vscode/
