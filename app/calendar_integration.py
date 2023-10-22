@@ -3,6 +3,7 @@ from auth import google, outlook  # Import the OAuth setups from auth.py
 import datetime
 from googleapiclient.discovery import build
 import requests  # Import the requests library
+import os
 
 app = Flask(__name__)
 
