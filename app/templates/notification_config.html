@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- ... -->
+  </head>
+  <body>
+    <form method="post">
+      {{ form.hidden_tag() }}
+      <label>{{ form.sms_notifications.label }}</label>
+      {{ form.sms_notifications }}
+      <br>
+      <label>{{ form.email_notifications.label }}</label>
+      {{ form.email_notifications }}
+      <br>
+      <label>{{ form.notification_keywords.label }}</label>
+      {{ form.notification_keywords }}
+      <br>
+      <input type="submit" value="Save">
+    </form>
+  </body>
+</html>
