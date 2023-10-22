@@ -1,4 +1,4 @@
-from flask import Flask, redirect, url_for
+from flask import Flask, redirect, url_for, session, request
 from flask_oauthlib.client import OAuth
 
 # Initialize Flask app and OAuth
@@ -8,23 +8,23 @@ oauth = OAuth(app)
 # Set up Google OAuth
 google = oauth.remote_app(
     'google',
-    consumer_key='YOUR_GOOGLE_CLIENT_ID',
-    consumer_secret='YOUR_GOOGLE_CLIENT_SECRET',
+    consumer_key=os.environ.get('GOOGLE_CLIENT_ID'),
+    consumer_secret=os.environ.get('GOOGLE_CLIENT_SECRET'),
     request_token_params={
         'scope': 'https://www.googleapis.com/auth/calendar.readonly',
     },
     base_url='https://www.googleapis.com/oauth2/v1/',
     request_token_url=None,
     access_token_method='POST',
-    access_token_url='https://accounts.google.com/o/oauth2/token',
+    access_token_url='https://oauth2.googleapis.com/token',
     authorize_url='https://accounts.google.com/o/oauth2/auth',
 )
 
 # Set up Outlook OAuth
 outlook = oauth.remote_app(
     'outlook',
-    consumer_key='YOUR_OUTLOOK_CLIENT_ID',
-    consumer_secret='YOUR_OUTLOOK_CLIENT_SECRET',
+    consumer_key=os.environ.get('OUTLOOK_CLIENT_ID'),
+    consumer_secret=os.environ.get('OUTLOOK_CLIENT_SECRET'),
     request_token_params={
         'scope': 'https://graph.microsoft.com/Calendars.Read',
     },
@@ -39,13 +39,13 @@ outlook = oauth.remote_app(
 def index():
     return 'Welcome to the Family Sports Schedule Notification System!'
 
-@app.route('/login/google')
-def login_google():
-    return google.authorize(callback=url_for('authorized_google', _external=True))
-
 @app.route('/login/outlook')
 def login_outlook():
     return outlook.authorize(callback=url_for('authorized_outlook', _external=True))
+
+@app.route('/login/google')
+def login_google():
+    return google.authorize(callback=url_for('authorized_google', _external=True))
 
 @app.route('/login/authorized/google')
 def authorized_google():
@@ -58,6 +58,7 @@ def authorized_google():
     session['google_token'] = (resp['access_token'], '')  # Save token in session
     return redirect(url_for('fetch_google_events'))  # Redirect to fetch events
 
+
 @app.route('/login/authorized/outlook')
 def authorized_outlook():
     resp = outlook.authorized_response()
@@ -66,5 +67,7 @@ def authorized_outlook():
             request.args['error_reason'],
             request.args['error_description']
         )
-    session['outlook_token'] = resp  # Save token in session
+    session['outlook_token'] = (resp['access_token'], '')  # Save token in session
     return redirect(url_for('fetch_outlook_events'))  # Redirect to fetch events
+
+app.secret_key = os.environ.get('FLASK_SECRET_KEY')  # Use the environment variable for your secret key
