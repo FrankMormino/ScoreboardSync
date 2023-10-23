@@ -1,3 +1,7 @@
+# Description: This file contains the routes for the calendar integration
+# File name: calendar_integration.py
+
+
 from flask import Blueprint, session, redirect, url_for
 from app.auth import google  # Import the OAuth setups from auth.py
 from google.oauth2 import credentials
@@ -7,42 +11,42 @@ import os  # Import the os module
 from app.auth import google, get_google_oauth_token  # Import the OAuth setups and token getter from auth.py
 from flask import Blueprint, session, redirect, url_for
 import requests
+from google.auth.transport.requests import Request  # Import the Request class
+from google.oauth2.credentials import Credentials  # Import the Credentials class
+from googleapiclient.errors import HttpError  # Import the HttpError class
 
 calendar_integration = Blueprint('calendar_integration', __name__)
 
 
 @calendar_integration.route('/fetch_google_events')
 def fetch_google_events():
-    if 'google_token' in session:
-        token_tuple = get_google_oauth_token()
-        if not token_tuple:
-            return redirect(url_for('auth.login_google'))  # Redirect to the login page if necessary
+    # Check if the token file exists and load the credentials from it
+    if os.path.exists('token.json'):
+        creds = Credentials.from_authorized_user_file('token.json', ['https://www.googleapis.com/auth/calendar.readonly'])
+        # If there are no (valid) credentials available, redirect to login
+        if not creds or not creds.valid:
+            if creds and creds.expired and creds.refresh_token:
+                creds.refresh(Request())
+                # Save the refreshed credentials for the next run
+                with open('token.json', 'w') as token:
+                    token.write(creds.to_json())
+            else:
+                return redirect(url_for('auth.login_google'))
 
-        access_token, refresh_token = token_tuple  # Unpack the token tuple
+        try:
+            # Build the Google Calendar API client
+            service = build('calendar', 'v3', credentials=creds)
+            now = datetime.datetime.utcnow().isoformat() + 'Z'  # 'Z' indicates UTC time
+            events_result = service.events().list(
+                calendarId='primary', timeMin=now, singleEvents=True, orderBy='startTime'
+            ).execute()
+            events = events_result.get('items', [])
+            return str(events)  # Convert to string for simple display
 
-        # Construct the token_info dictionary
-        token_info = {
-            'token': access_token,
-            'refresh_token': refresh_token,  # Use the refresh token from the session
-            'token_uri': 'https://oauth2.googleapis.com/token',
-            'client_id': os.environ.get('GOOGLE_CLIENT_ID'),
-            'client_secret': os.environ.get('GOOGLE_CLIENT_SECRET'),
-            'scopes': 'https://www.googleapis.com/auth/calendar.readonly'
-        }
+        except HttpError as error:
+            print(f'An error occurred: {error}')  # Log the error for debugging
+            return f'Error: {error}', 500  # Return a 500 Internal Server Error response
 
-
-        # Create a Credentials object
-        creds = credentials.Credentials.from_authorized_user_info(token_info)
-
-        # Build the Google Calendar API client
-        service = build('calendar', 'v3', credentials=creds)
-
-        now = datetime.datetime.utcnow().isoformat() + 'Z'  # 'Z' indicates UTC time
-        events_result = service.events().list(
-            calendarId='primary', timeMin=now, singleEvents=True, orderBy='startTime'
-        ).execute()
-        events = events_result.get('items', [])
-        return str(events)  # Convert to string for simple display
     return redirect(url_for('auth.login_google'))  # Redirect to the login page if necessary
 
 

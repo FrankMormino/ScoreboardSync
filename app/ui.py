@@ -1,3 +1,6 @@
+# Description: This file contains the UI code for the application.
+# File name: ui.py
+
 import os
 import logging
 from flask import (

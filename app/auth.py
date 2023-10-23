@@ -1,6 +1,12 @@
+#  Description: This file contains the code for the authentication blueprint. It handles the OAuth flow for Google
+#  and Outlook. It also contains the code for the index route.
+#  File name: auth.py
+import json  # Import the json module
 from flask import Blueprint, redirect, url_for, session, request
 from flask_oauthlib.client import OAuth
 import os
+from google.auth.transport.requests import Request  # Import the Request class
+from google.oauth2.credentials import Credentials  # Import the Credentials class
 
 # Create a Blueprint
 auth = Blueprint('auth', __name__)
@@ -15,6 +21,8 @@ google = oauth.remote_app(
     consumer_secret=os.environ.get('GOOGLE_CLIENT_SECRET'),
     request_token_params={
         'scope': 'https://www.googleapis.com/auth/calendar.readonly',
+        'access_type': 'offline',  # This requests refresh tokens
+        'prompt': 'consent'  # This ensures you get a refresh token even if you already granted permissions
     },
     base_url='https://www.googleapis.com/oauth2/v1/',
     request_token_url=None,
@@ -68,17 +76,34 @@ def login_google():
 @auth.route('/login/authorized/google')
 def authorized_google():
     resp = google.authorized_response()
+    print(resp)  # Print the response to the console for debugging
+
     if resp is None or resp.get('access_token') is None:
         return 'Access denied: reason={} error={}'.format(
             request.args['error_reason'],
             request.args['error_description']
         )
 
-    # Save both the access token and the refresh token in the session
-    session['google_token'] = (resp['access_token'], resp.get('refresh_token', ''))
+    access_token = resp['access_token']
+    refresh_token = resp.get('refresh_token')  # Get the refresh token if available
+
+    if refresh_token:
+        # Save both the access token and the refresh token in a file
+        token_info = {
+            'token': access_token,
+            'refresh_token': refresh_token,
+            'token_uri': 'https://oauth2.googleapis.com/token',
+            'client_id': os.environ.get('GOOGLE_CLIENT_ID'),
+            'client_secret': os.environ.get('GOOGLE_CLIENT_SECRET'),
+            'scopes': 'https://www.googleapis.com/auth/calendar.readonly'
+        }
+        with open('token.json', 'w') as token_file:
+            json.dump(token_info, token_file)
+    else:
+        # Handle the case where the refresh token is not provided
+        return 'Error: Refresh token is missing'
 
     return redirect(url_for('calendar_integration.fetch_google_events'))  # Redirect to fetch events
-
 
 
 @auth.route('/login/authorized/outlook')
