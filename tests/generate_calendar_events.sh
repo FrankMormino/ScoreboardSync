@@ -1,95 +1,74 @@
 #!/bin/bash
 
 # Function to generate a random email address
-generate_random_email() {
-  local random_name=$(tr -dc 'a-zA-Z' < /dev/urandom | fold -w 8 | head -n 1)
-  local random_domain=$(tr -dc 'a-z' < /dev/urandom | fold -w 8 | head -n 1).com
-  echo "${random_name}@${random_domain}"
+function generate_email() {
+  local name
+  local domain
+  name=$(cat /dev/urandom | tr -dc 'a-zA-Z' | fold -w 8 | head -n 1)
+  domain=$(cat /dev/urandom | tr -dc 'a-z' | fold -w 8 | head -n 1)
+  echo "$name@$domain.com"
 }
 
-# Function to generate a random kids' name
-generate_kids_name() {
-  local kids_names=("Andrew" "Frankie" "Dominic" "Adelina" "Mackenzie" "Kalee" "Avery" "Joey" "Olivia" "Emma" "Liam" "Aiden" "Sophia" "Ella" "Mia" "Lucas" "Ethan" "Ava" "Noah" "Isabella")
-  echo "${kids_names[$((RANDOM % ${#kids_names[@]}))]}"
+# Function to generate a random event
+function generate_event() {
+  local name
+  local sport
+  local event_type
+  name=("Andrew" "Frankie" "Dominic" "Adelina" "Mackenzie" "Kalee" "Avery" "Joey" "Olivia" "Emma")
+  sport=("basketball" "baseball" "soccer" "softball" "volleyball" "football" "hockey" "tennis")
+  event_type=("Practice" "Game")
+
+  local random_name
+  local random_sport
+  local random_event_type
+  local random_location
+
+  random_name=${name[$RANDOM % ${#name[@]}]}
+  random_sport=${sport[$RANDOM % ${#sport[@]}]}
+  random_event_type=${event_type[$RANDOM % ${#event_type[@]}]}
+
+  case "$random_sport" in
+    "basketball")
+      random_location="Toms River East Little League, 2195 Windsor Ave, Toms River, NJ 08753, USA"
+      ;;
+    "baseball")
+      random_location="Brick American Baseball League, 2000 Lanes Mill Rd, Brick Township, NJ 08724, USA"
+      ;;
+    "soccer")
+      random_location="Soccer Field, 123 Main St, Sample City, NJ 12345, USA"
+      ;;
+    "softball")
+      random_location="Drum Point Sports Complex, Brick Blvd, Brick Township, NJ 08723, USA"
+      ;;
+    "volleyball")
+      random_location="Lake Riviera Middle School, 171 Beaverson Blvd, Brick Township, NJ 08723, USA"
+      ;;
+    *)
+      random_location="Toms River East Little League, 2195 Windsor Ave, Toms River, NJ 08753, USA"
+      ;;
+  esac
+
+  echo "{\"kind\":\"calendar#event\",\"etag\":\"$(cat /dev/urandom | tr -dc '0-9' | fold -w 16 | head -n 1)\",\"id\":\"event-id-$RANDOM\",\"status\":\"confirmed\",\"htmlLink\":\"https://www.google.com/calendar/event?eid=event-id-$RANDOM\",\"created\":\"$(date -Iseconds)\",\"updated\":\"$(date -Iseconds)\",\"summary\":\"$random_name 🏈 $random_sport $random_event_type\",\"location\":\"$random_location\",\"creator\":{\"email\":\"$(generate_email)\",\"self\":true},\"organizer\":{\"email\":\"$(generate_email)\",\"self\":true},\"start\":{\"dateTime\":\"2023-10-$(shuf -i 24-28 -n 1)T$(shuf -i 10-19 -n 1):00:00-04:00\",\"timeZone\":\"America/New_York\"},\"end\":{\"dateTime\":\"2023-10-$(shuf -i 24-28 -n 1)T$(shuf -i 10-19 -n 1):00:00-04:00\",\"timeZone\":\"America/New_York\"},\"iCalUID\":\"event-id-$RANDOM@google.com\",\"sequence\":0,\"reminders\":{\"useDefault\":true},\"eventType\":\"default\"},"
 }
 
-# Function to generate a random sports item
-generate_sports_item() {
-  local sports_items=("baseball" "football" "soccerball" "softball" "volleyball" "basketball")
-  echo "${sports_items[$((RANDOM % ${#sports_items[@]}))]}"
-}
-
-# Prompt for the number of events
+# Ask for the number of events
 read -p "Enter the number of events you'd like to create: " num_events
 
-# Check if input is a valid number
-if [[ ! $num_events =~ ^[0-9]+$ ]]; then
-  echo "Invalid input. Please enter a valid number."
-  exit 1
-fi
-
-# Ask if random organizers should be used
+# Ask whether to use random organizers
 read -p "Do you want to use random organizers (yes/no)? " use_random_organizers
 
-# Create a JSON file to store the events
-output_file="calendar_events.json"
-echo "[" > "$output_file"
+# Create an array to hold the events
+events=()
 
-# Generate random events
+# Generate the specified number of events
 for ((i = 1; i <= num_events; i++)); do
-  event_id="event-id-$i"
-  etag="\"$(shuf -i 1000000000000000-9999999999999999 -n 1)\""
-  html_link="\"https://www.google.com/calendar/event?eid=${event_id}\""
-  created="\"$(date -Iseconds -u)\""
-  updated="$created"
-  kids_name=$(generate_kids_name)
-  sports_item=$(generate_sports_item)
-  summary="\"$kids_name 🏈 $sports_item $(if [ $((RANDOM % 2)) -eq 0 ]; then echo "Game"; else echo "Practice"; fi)\""
-  start="\"$(date -Iseconds -u -d "+${i} days")\""
-  end="\"$(date -Iseconds -u -d "+${i} days 1 hour")\""
-
-  if [ "$use_random_organizers" = "yes" ]; then
-    organizer_email=$(generate_random_email)
-  else
-    read -p "Enter the organizer's email for Event $i: " organizer_email
-  fi
-
-  cat <<EOF >> "$output_file"
-  {
-    "kind": "calendar#event",
-    "etag": $etag,
-    "id": "$event_id",
-    "status": "confirmed",
-    "htmlLink": $html_link,
-    "created": $created,
-    "updated": $updated,
-    "summary": $summary,
-    "creator": {
-      "email": "$organizer_email",
-      "self": true
-    },
-    "organizer": {
-      "email": "$organizer_email",
-      "self": true
-    },
-    "start": {
-      "dateTime": $start,
-      "timeZone": "America/New_York"
-    },
-    "end": {
-      "dateTime": $end,
-      "timeZone": "America/New_York"
-    }
-  },
-EOF
-
+  events+=("$(generate_event)")
 done
 
-# Remove the trailing comma from the last event
-sed -i '$s/,$//' "$output_file"
+# Save the events to a JSON file
+echo "[" >>calendar_events.json
+echo "${events[@]}" >>calendar_events.json
+echo "]" >>calendar_events.json
 
-# Close the JSON array
-echo "]" >> "$output_file"
-
-echo "Events have been generated and saved to $output_file."
+echo "Events have been generated and saved to calendar_events.json."
 
