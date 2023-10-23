@@ -4,8 +4,12 @@
 function generate_email() {
   local name
   local domain
-  name=$(cat /dev/urandom | tr -dc 'a-zA-Z' | fold -w 8 | head -n 1)
-  domain=$(cat /dev/urandom | tr -dc 'a-z' | fold -w 8 | head -n 1)
+  #name=$(cat /dev/urandom | tr -dc 'a-zA-Z' | fold -w 8 | head -n 1)
+  #domain=$(cat /dev/urandom | tr -dc 'a-z' | fold -w 8 | head -n 1)
+  name=$(head -c 8 /dev/urandom | tr -dc 'a-zA-Z')
+  domain=$(head -c 8 /dev/urandom | tr -dc '[:lower:]')
+
+
   echo "$name@$domain.com"
 }
 
@@ -15,7 +19,8 @@ function generate_event() {
   local sport
   local event_type
   name=("Andrew" "Frankie" "Dominic" "Adelina" "Mackenzie" "Kalee" "Avery" "Joey" "Olivia" "Emma")
-  sport=("basketball" "baseball" "soccer" "softball" "volleyball" "football" "hockey" "tennis")
+  #sport=("basketball" "baseball" "soccer" "softball" "volleyball" "football" "hockey" "tennis")
+  sport=("🏀 basketball" "⚾ baseball" "⚽ soccer" "🥎 softball" "🏐 volleyball" "🏈 football" "🏒 hockey" "🎾 tennis")
   event_type=("Practice" "Game" "Match" "Scrimmage" "Tournament" "Clinic" "Camp" "Tryout")
 
   local random_name
@@ -26,6 +31,10 @@ function generate_event() {
   random_name=${name[$RANDOM % ${#name[@]}]}
   random_sport=${sport[$RANDOM % ${#sport[@]}]}
   random_event_type=${event_type[$RANDOM % ${#event_type[@]}]}
+
+  # Extract the emoji and sport name
+  emoji=$(echo "$random_sport" | cut -d' ' -f1)
+  sport_name=$(echo "$random_sport" | cut -d' ' -f2-)
 
   case "$random_sport" in
     "basketball")
@@ -48,14 +57,13 @@ function generate_event() {
       ;;
   esac
 
-  echo "{\"kind\":\"calendar#event\",\"etag\":\"$(cat /dev/urandom | tr -dc '0-9' | fold -w 16 | head -n 1)\",\"id\":\"event-id-$RANDOM\",\"status\":\"confirmed\",\"htmlLink\":\"https://www.google.com/calendar/event?eid=event-id-$RANDOM\",\"created\":\"$(date -Iseconds)\",\"updated\":\"$(date -Iseconds)\",\"summary\":\"$random_name 🏈 $random_sport $random_event_type\",\"location\":\"$random_location\",\"creator\":{\"email\":\"$(generate_email)\",\"self\":true},\"organizer\":{\"email\":\"$(generate_email)\",\"self\":true},\"start\":{\"dateTime\":\"2023-10-$(shuf -i 24-28 -n 1)T$(shuf -i 10-19 -n 1):00:00-04:00\",\"timeZone\":\"America/New_York\"},\"end\":{\"dateTime\":\"2023-10-$(shuf -i 24-28 -n 1)T$(shuf -i 10-19 -n 1):00:00-04:00\",\"timeZone\":\"America/New_York\"},\"iCalUID\":\"event-id-$RANDOM@google.com\",\"sequence\":0,\"reminders\":{\"useDefault\":true},\"eventType\":\"default\"},"
+  #echo "{\"kind\":\"calendar#event\",\"etag\":\"$(cat /dev/urandom | tr -dc '0-9' | fold -w 16 | head -n 1)\",\"id\":\"event-id-$RANDOM\",\"status\":\"confirmed\",\"htmlLink\":\"https://www.google.com/calendar/event?eid=event-id-$RANDOM\",\"created\":\"$(date -Iseconds)\",\"updated\":\"$(date -Iseconds)\",\"summary\":\"$random_name 🏈 $random_sport $random_event_type\",\"location\":\"$random_location\",\"creator\":{\"email\":\"$(generate_email)\",\"self\":true},\"organizer\":{\"email\":\"$(generate_email)\",\"self\":true},\"start\":{\"dateTime\":\"2023-10-$(shuf -i 24-28 -n 1)T$(shuf -i 10-19 -n 1):00:00-04:00\",\"timeZone\":\"America/New_York\"},\"end\":{\"dateTime\":\"2023-10-$(shuf -i 24-28 -n 1)T$(shuf -i 10-19 -n 1):00:00-04:00\",\"timeZone\":\"America/New_York\"},\"iCalUID\":\"event-id-$RANDOM@google.com\",\"sequence\":0,\"reminders\":{\"useDefault\":true},\"eventType\":\"default\"},"
+  echo "{\"kind\":\"calendar#event\",\"etag\":\"$(cat /dev/urandom | tr -dc '0-9' | fold -w 16 | head -n 1)\",\"id\":\"event-id-$RANDOM\",\"status\":\"confirmed\",\"htmlLink\":\"https://www.google.com/calendar/event?eid=event-id-$RANDOM\",\"created\":\"$(date -Iseconds)\",\"updated\":\"$(date -Iseconds)\",\"summary\":\"$random_name $emoji $random_event_type $sport_name\",\"location\":\"$random_location\",\"creator\":{\"email\":\"$(generate_email)\",\"self\":true},\"organizer\":{\"email\":\"$(generate_email)\",\"self\":true},\"start\":{\"dateTime\":\"2023-10-$(shuf -i 24-28 -n 1)T$(shuf -i 10-19 -n 1):00:00-04:00\",\"timeZone\":\"America/New_York\"},\"end\":{\"dateTime\":\"2023-10-$(shuf -i 24-28 -n 1)T$(shuf -i 10-19 -n 1):00:00-04:00\",\"timeZone\":\"America/New_York\"},\"iCalUID\":\"event-id-$RANDOM@google.com\",\"sequence\":0,\"reminders\":{\"useDefault\":true},\"eventType\":\"default\"},"
+
 }
 
 # Ask for the number of events
-read -p "Enter the number of events you'd like to create: " num_events
-
-# Ask whether to use random organizers
-read -p "Do you want to use random organizers (yes/no)? " use_random_organizers
+read -r -p "Enter the number of events you'd like to create: " num_events
 
 # Create an array to hold the events
 events=()
