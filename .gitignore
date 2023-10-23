@@ -1,6 +1,7 @@
 # Ignore the .env file containing sensitive information
 .env
-
+# Ignore any files called token.json in any directory
+token.json
 # Ignore Python compiled files and packages
 __pycache__/
 *.pyc
@@ -30,6 +31,5 @@ docker-compose*
 .idea/
 .vscode/
 
-# Ignore any files called token.json in any directory
-**/token.json
+
 
