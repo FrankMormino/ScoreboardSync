@@ -16,7 +16,7 @@ function generate_event() {
   local event_type
   name=("Andrew" "Frankie" "Dominic" "Adelina" "Mackenzie" "Kalee" "Avery" "Joey" "Olivia" "Emma")
   sport=("basketball" "baseball" "soccer" "softball" "volleyball" "football" "hockey" "tennis")
-  event_type=("Practice" "Game")
+  event_type=("Practice" "Game" "Match" "Scrimmage" "Tournament" "Clinic" "Camp" "Tryout")
 
   local random_name
   local random_sport
