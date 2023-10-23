@@ -14,6 +14,7 @@ function generate_email() {
 }
 
 # Function to generate a random event
+# Function to generate a random event
 function generate_event() {
   local name
   local sport
@@ -65,9 +66,42 @@ function generate_event() {
       ;;
   esac
 
-  #echo "{\"kind\":\"calendar#event\",\"etag\":\"$(cat /dev/urandom | tr -dc '0-9' | fold -w 16 | head -n 1)\",\"id\":\"event-id-$RANDOM\",\"status\":\"confirmed\",\"htmlLink\":\"https://www.google.com/calendar/event?eid=event-id-$RANDOM\",\"created\":\"$(date -Iseconds)\",\"updated\":\"$(date -Iseconds)\",\"summary\":\"$random_name $emoji $random_event_type $sport_name\",\"location\":\"$random_location\",\"creator\":{\"email\":\"$(generate_email)\",\"self\":true},\"organizer\":{\"email\":\"$(generate_email)\",\"self\":true},\"start\":{\"dateTime\":\"2023-10-$(shuf -i 24-28 -n 1)T$(shuf -i 10-19 -n 1):00:00-04:00\",\"timeZone\":\"America/New_York\"},\"end\":{\"dateTime\":\"2023-10-$(shuf -i 24-28 -n 1)T$(shuf -i 10-19 -n 1):00:00-04:00\",\"timeZone\":\"America/New_York\"},\"iCalUID\":\"event-id-$RANDOM@google.com\",\"sequence":0,\"reminders\":{\"useDefault\":true},\"eventType\":\"default\"},"
-  echo "{\"kind\":\"calendar#event\",\"etag\":\"$(cat /dev/urandom | tr -dc '0-9' | fold -w 16 | head -n 1)\",\"id\":\"event-id-\$RANDOM\",\"status\":\"confirmed\",\"htmlLink\":\"https://www.google.com/calendar/event?eid=event-id-\$RANDOM\",\"created\":\"$(date -Iseconds)\",\"updated\":\"$(date -Iseconds)\",\"summary\":\"$random_name $emoji $random_event_type $sport_name\",\"location\":\"$random_location\",\"creator\":{\"email\":\"$(generate_email)\",\"self\":true},\"organizer\":{\"email\":\"$(generate_email)\",\"self\":true},\"start\":{\"dateTime\":\"2023-10-\$(shuf -i 24-28 -n 1)T\$(shuf -i 10-19 -n 1):00:00-04:00\",\"timeZone\":\"America/New_York\"},\"end\":{\"dateTime\":\"2023-10-\$(shuf -i 24-28 -n 1)T\$(shuf -i 10-19 -n 1):00:00-04:00\",\"timeZone\":\"America/New_York\"},\"iCalUID\":\"event-id-\$RANDOM@google.com\",\"sequence\":0,\"reminders\":{\"useDefault\":true},\"eventType\":\"default\"},"
+  # Calculate a random number of days (between 1 and 5) to schedule the event in the future
+  random_days=$((RANDOM % 5 + 1))
+
+  # Calculate a random number of minutes (between 0 and 1440) to add to the start time
+  random_minutes=$((RANDOM % 1440))
+
+  # Calculate the end time by adding 1 to 2 hours (60 to 120 minutes) to the start time
+  end_minutes=$((random_minutes + RANDOM % 61 + 60))
+
+  # Format the start and end times in ISO 8601 format
+  start_time=$(date -Iminutes -d "+$random_days days $random_minutes minutes")
+  end_time=$(date -Iminutes -d "+$random_days days $end_minutes minutes")
+
+  # Generate the JSON with the calculated start and end times
+  echo "{\"kind\":\"calendar#event\",
+  \"etag\":\"$(cat /dev/urandom | tr -dc '0-9' | fold -w 16 | head -n 1)\",
+  \"id\":\"event-id-\$RANDOM\",
+  \"status\":\"confirmed\",
+  \"htmlLink\":\"https://www.google.com/calendar/event?eid=event-id-\$RANDOM\",
+  \"created\":\"$(date -Iseconds)\",
+  \"updated\":\"$(date -Iseconds)\",
+  \"summary\":\"$random_name $emoji $random_event_type $sport_name\",
+  \"location\":\"$random_location\",
+  \"creator\":{\"email\":\"$(generate_email)\",
+  \"self\":true},
+  \"organizer\":{\"email\":\"$(generate_email)\",
+  \"self\":true},
+  \"start\":{\"dateTime\":\"$start_time\",
+  \"timeZone\":\"America/New_York\"},
+  \"end\":{\"dateTime\":\"$end_time\",\"timeZone\":\"America/New_York\"},
+  \"iCalUID\":\"event-id-\$RANDOM@google.com\",
+  \"sequence\":0,
+  \"reminders\":{\"useDefault\":true},
+  \"eventType\":\"default\"},"
 }
+
 
 
 # Ask for the number of events
@@ -87,6 +121,7 @@ echo "[" >>calendar_events.json
 # Consider using { cmd1; cmd2; } >> file instead of individual redirects.
 echo "${events[@]}" | sed "s/,$//" >>calendar_events.json  # Remove trailing comma
 echo "]" >>calendar_events.json
+
 
 
 echo "Events have been generated and saved to calendar_events.json."
