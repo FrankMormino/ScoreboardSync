@@ -4,10 +4,10 @@
 function generate_email() {
   local name
   local domain
-  #name=$(cat /dev/urandom | tr -dc 'a-zA-Z' | fold -w 8 | head -n 1)
-  #domain=$(cat /dev/urandom | tr -dc 'a-z' | fold -w 8 | head -n 1)
-  name=$(head -c 8 /dev/urandom | tr -dc 'a-zA-Z')
-  domain=$(head -c 8 /dev/urandom | tr -dc '[:lower:]')
+  name=$(cat /dev/urandom | tr -dc 'a-zA-Z' | fold -w 8 | head -n 1)
+  domain=$(cat /dev/urandom | tr -dc 'a-z' | fold -w 8 | head -n 1)
+  #name=$(head -c 8 /dev/urandom | tr -dc 'a-zA-Z')
+  #domain=$(head -c 8 /dev/urandom | tr -dc '[:lower:]')
 
 
   echo "$name@$domain.com"
