@@ -29,3 +29,7 @@ docker-compose*
 # Ignore the IDE configurations
 .idea/
 .vscode/
+
+# Ignore any files called token.json in any directory
+**/token.json
+
