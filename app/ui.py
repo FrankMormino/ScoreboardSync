@@ -7,7 +7,10 @@ from app.forms import LinkCalendarForm, NotificationConfigForm
 
 import logging
 
+import os
+
 app = Flask(__name__)
+app.secret_key = os.environ.get('FLASK_SECRET_KEY')
 
 
 @app.route('/')
@@ -64,4 +67,4 @@ def page_not_found(e):
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO)
-    app.run()
+    app.run(debug=True)

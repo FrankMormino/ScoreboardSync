@@ -6,7 +6,11 @@
 <body>
     <h1>Link Your Calendar</h1>
     <form method="post">
+        <!-- CSRF Token -->
+        {{ form.hidden_tag() }}
         <!-- Form fields for calendar linking -->
+        {{ form.some_field.label }}: {{ form.some_field() }}<br>
+        <!-- ... add other form fields ... -->
         <input type="submit" value="Link Calendar">
     </form>
 </body>

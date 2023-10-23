@@ -5,6 +5,16 @@
 </head>
 <body>
     <h1>Family Sports Schedule Notification System</h1>
+    <!-- Flash Messages -->
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <ul class="flashes">
+                {% for message in messages %}
+                    <li>{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
     <a href="{{ url_for('link_calendar') }}">Link Calendar</a><br>
     <a href="{{ url_for('notification_config') }}">Notification Configuration</a><br>
     <a href="{{ url_for('view_schedule') }}">View Schedule</a><br>
