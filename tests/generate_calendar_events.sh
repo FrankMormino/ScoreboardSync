@@ -124,7 +124,12 @@ echo "${events[*]}" >> calendar_events.json
 echo "]" >> calendar_events.json
 
 
-
+# Validate the generated JSON using jq
+if jq . calendar_events.json; then
+  echo "JSON validation successful."
+else
+  echo "JSON validation failed. Please check the generated JSON for issues."
+fi
 
 echo "Events have been generated and saved to calendar_events.json."
 
