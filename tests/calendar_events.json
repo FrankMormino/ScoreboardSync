@@ -1,6 +1,7 @@
 [
   {
     "kind": "calendar#event",
+<<<<<<< Updated upstream
     "etag": "3662215017319279",
     "id": "event-id-6979",
     "status": "confirmed",
@@ -26,6 +27,33 @@
       "timeZone": "America/New_York"
     },
     "iCalUID": "event-id-5909@google.com",
+=======
+    "etag": "5158516794976182",
+    "id": "event-id-5786",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-7951",
+    "created": "2023-10-23T13:10:00.385425",
+    "updated": "2023-10-23T13:10:00.385425",
+    "summary": "Mackenzie \ud83e\udd4e Match softball",
+    "location": "Drum Point Sports Complex, Brick Blvd, Brick Township, NJ 08723, USA",
+    "creator": {
+      "email": "yvfFZkgI@zmjsaoxt.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "fJjYCjIb@vjzkoxuz.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-27T02:05:00.385425",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-27T03:45:00.385425",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-981@google.com",
+>>>>>>> Stashed changes
     "sequence": 0,
     "reminders": {
       "useDefault": true
@@ -34,6 +62,7 @@
   },
   {
     "kind": "calendar#event",
+<<<<<<< Updated upstream
     "etag": "5740574722859808",
     "id": "event-id-5636",
     "status": "confirmed",
@@ -3293,6 +3322,33 @@
       "timeZone": "America/New_York"
     },
     "iCalUID": "event-id-6978@google.com",
+=======
+    "etag": "5512302064169857",
+    "id": "event-id-4568",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-6948",
+    "created": "2023-10-23T13:10:00.387425",
+    "updated": "2023-10-23T13:10:00.387425",
+    "summary": "Andrew \ud83c\udfd0 Tryout volleyball",
+    "location": "Lake Riviera Middle School, 171 Beaverson Blvd, Brick Township, NJ 08723, USA",
+    "creator": {
+      "email": "QqcqoJDp@osdbxqgg.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "StZwEcPL@wttzlwst.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-27T00:33:00.387425",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-27T01:52:00.387425",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-1592@google.com",
+>>>>>>> Stashed changes
     "sequence": 0,
     "reminders": {
       "useDefault": true

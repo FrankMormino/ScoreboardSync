@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
@@ -701,4 +702,23 @@ DTSTART:20231026T234654Z
 SUMMARY:Frankie 🥎 Clinic softball
 UID:event-id-4882@google.com
 END:VEVENT
+=======
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DTEND:20231027T015200Z
+LOCATION:Lake Riviera Middle School\, 171 Beaverson Blvd\, Brick Township\, NJ 08723\, USA
+DTSTART:20231027T003300Z
+SUMMARY:Andrew 🏐 Tryout volleyball
+UID:event-id-1592@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231027T034500Z
+LOCATION:Drum Point Sports Complex\, Brick Blvd\, Brick Township\, NJ 08723\, USA
+DTSTART:20231027T020500Z
+SUMMARY:Mackenzie 🥎 Match softball
+UID:event-id-981@google.com
+END:VEVENT
+>>>>>>> Stashed changes
 END:VCALENDAR
