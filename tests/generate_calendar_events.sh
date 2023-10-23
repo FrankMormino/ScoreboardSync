@@ -118,11 +118,16 @@ done
 
 # Save the events to a JSON file
 echo "[" > calendar_events.json  # Overwrite the file, creating a new one
-# Join the events with commas and add them to the file
-IFS=','  # Set the Internal Field Separator to a comma
-echo "${events[*]}" >> calendar_events.json
-echo "]" >> calendar_events.json
 
+# Loop through the events and add them to the file
+for ((i = 0; i < ${#events[@]}; i++)); do
+  if [ $i -gt 0 ]; then
+    echo "," >> calendar_events.json  # Add a comma before all events except the first one
+  fi
+  echo "${events[$i]}" >> calendar_events.json
+done
+
+echo "]" >> calendar_events.json
 
 # Validate the generated JSON using jq
 if jq . calendar_events.json; then
