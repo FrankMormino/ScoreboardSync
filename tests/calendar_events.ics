@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DTEND:20231026T212235Z
+LOCATION:Tennis Court\, 101 Racket St\, Racketville\, NJ 13579\, USA
+DTSTART:20231026T195335Z
+SUMMARY:Dominic 🎾 Game tennis
+UID:event-id-9878@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231025T072935Z
+LOCATION:Tennis Court\, 101 Racket St\, Racketville\, NJ 13579\, USA
+DTSTART:20231025T054435Z
+SUMMARY:Frankie 🎾 Clinic tennis
+UID:event-id-4808@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231026T073535Z
+LOCATION:Brick American Baseball League\, 2000 Lanes Mill Rd\, Brick Township\, NJ 08724\, USA
+DTSTART:20231026T055735Z
+SUMMARY:Adelina ⚾ Clinic baseball
+UID:event-id-3824@google.com
+END:VEVENT
+END:VCALENDAR

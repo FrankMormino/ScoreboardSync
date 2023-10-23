@@ -1,0 +1,167 @@
+[
+  {
+    "kind": "calendar#event",
+    "etag": "9879479820325957",
+    "id": "event-id-4373",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-6630",
+    "created": "2023-10-23T12:32:45.558041",
+    "updated": "2023-10-23T12:32:45.558041",
+    "summary": "Mackenzie \\U0001f3c0 Game basketball",
+    "location": "Toms River East Little League, 2195 Windsor Ave, Toms River, NJ 08753, USA",
+    "creator": {
+      "email": "FswbcCTn@ugpaftqk.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "rEjWfiTp@fngtnqmh.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-27T10:24:45.558041",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-27T11:37:45.558041",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-1823@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "6399815612575713",
+    "id": "event-id-6442",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-5645",
+    "created": "2023-10-23T12:32:45.560042",
+    "updated": "2023-10-23T12:32:45.560042",
+    "summary": "Joey \\u26be Clinic baseball",
+    "location": "Brick American Baseball League, 2000 Lanes Mill Rd, Brick Township, NJ 08724, USA",
+    "creator": {
+      "email": "BgWlzrMa@pmfbfydo.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "lMFudaVa@lmqnwiys.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-27T19:20:45.560042",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-27T20:23:45.560042",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-8614@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "7579249428706907",
+    "id": "event-id-4686",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-3573",
+    "created": "2023-10-23T12:32:45.561042",
+    "updated": "2023-10-23T12:32:45.561042",
+    "summary": "Olivia \\U0001f94e Scrimmage softball",
+    "location": "Drum Point Sports Complex, Brick Blvd, Brick Township, NJ 08723, USA",
+    "creator": {
+      "email": "qRKiUFbV@rawajrqo.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "sBKJPXLq@ipfunybt.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-28T19:55:45.561042",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-28T21:21:45.561042",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-4694@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "2684961868885101",
+    "id": "event-id-3358",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-1855",
+    "created": "2023-10-23T12:32:45.561042",
+    "updated": "2023-10-23T12:32:45.561042",
+    "summary": "Olivia \\U0001f3d0 Clinic volleyball",
+    "location": "Lake Riviera Middle School, 171 Beaverson Blvd, Brick Township, NJ 08723, USA",
+    "creator": {
+      "email": "gVPoFTpl@msqfkeeh.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "PdNlefjI@pufrczaj.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-24T20:32:45.561042",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-24T22:13:45.561042",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-2457@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "1407157664694049",
+    "id": "event-id-515",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-5263",
+    "created": "2023-10-23T12:32:45.561042",
+    "updated": "2023-10-23T12:32:45.561042",
+    "summary": "Andrew \\U0001f94e Game softball",
+    "location": "Drum Point Sports Complex, Brick Blvd, Brick Township, NJ 08723, USA",
+    "creator": {
+      "email": "JgQXWOAE@keopyooz.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "qGwmmJrl@grvhrhqn.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-25T04:13:45.561042",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-25T05:19:45.561042",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-1073@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  }
+]

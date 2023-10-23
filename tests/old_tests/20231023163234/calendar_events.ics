@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DTEND:20231027T064115Z
+LOCATION:Tennis Court\, 101 Racket St\, Racketville\, NJ 13579\, USA
+DTSTART:20231027T044115Z
+SUMMARY:Kalee \\U0001f3be Camp tennis
+UID:event-id-5939@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231028T125115Z
+LOCATION:Brick American Baseball League\, 2000 Lanes Mill Rd\, Brick Township\, NJ 08724\, USA
+DTSTART:20231028T105815Z
+SUMMARY:Adelina \\u26be Clinic baseball
+UID:event-id-7724@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231029T091015Z
+LOCATION:Soccer Field\, 123 Main St\, Sample City\, NJ 12345\, USA
+DTSTART:20231029T075615Z
+SUMMARY:Mackenzie \\u26bd Clinic soccer
+UID:event-id-2461@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231028T215315Z
+LOCATION:Drum Point Sports Complex\, Brick Blvd\, Brick Township\, NJ 08723\, USA
+DTSTART:20231028T202615Z
+SUMMARY:Avery \\U0001f94e Practice softball
+UID:event-id-5690@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231028T220115Z
+LOCATION:Hockey Arena\, 789 Ice Rink Rd\, Ice City\, NJ 67890\, USA
+DTSTART:20231028T205115Z
+SUMMARY:Frankie \\U0001f3d2 Scrimmage hockey
+UID:event-id-6246@google.com
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,167 @@
+[
+  {
+    "kind": "calendar#event",
+    "etag": "2222834333280818",
+    "id": "event-id-498",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-8345",
+    "created": "2023-10-23T12:34:52.774661",
+    "updated": "2023-10-23T12:34:52.774661",
+    "summary": "Avery \\u26be Camp baseball",
+    "location": "Brick American Baseball League, 2000 Lanes Mill Rd, Brick Township, NJ 08724, USA",
+    "creator": {
+      "email": "AlaKfgWB@urmplasw.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "uFCJtyOW@ocquixqy.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-25T19:12:52.774661",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-25T20:21:52.774661",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-2544@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "1676932117846346",
+    "id": "event-id-2797",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-3932",
+    "created": "2023-10-23T12:34:52.777650",
+    "updated": "2023-10-23T12:34:52.777650",
+    "summary": "Emma \\U0001f94e Camp softball",
+    "location": "Drum Point Sports Complex, Brick Blvd, Brick Township, NJ 08723, USA",
+    "creator": {
+      "email": "ufuuWzFB@vbhzeytf.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "yTGwvIEt@hskuazas.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-25T13:38:52.777650",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-25T15:22:52.777650",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-18@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "8038445674552391",
+    "id": "event-id-8285",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-3637",
+    "created": "2023-10-23T12:34:52.777650",
+    "updated": "2023-10-23T12:34:52.777650",
+    "summary": "Dominic \\U0001f3d2 Tournament hockey",
+    "location": "Hockey Arena, 789 Ice Rink Rd, Ice City, NJ 67890, USA",
+    "creator": {
+      "email": "DxOHlbxS@zxcqiqxf.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "WKdYyJaE@dnasppnj.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-29T12:18:52.777650",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-29T14:10:52.777650",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-2093@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "6758931064592397",
+    "id": "event-id-567",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-3618",
+    "created": "2023-10-23T12:34:52.778651",
+    "updated": "2023-10-23T12:34:52.778651",
+    "summary": "Avery \\U0001f94e Practice softball",
+    "location": "Drum Point Sports Complex, Brick Blvd, Brick Township, NJ 08723, USA",
+    "creator": {
+      "email": "hIekionC@cwbvuwld.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "yyLnmLNX@qxcsoegq.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-27T12:48:52.777650",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-27T14:04:52.777650",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-3109@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "7643400256936785",
+    "id": "event-id-5663",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-8931",
+    "created": "2023-10-23T12:34:52.778651",
+    "updated": "2023-10-23T12:34:52.778651",
+    "summary": "Avery \\U0001f3c8 Scrimmage football",
+    "location": "Football Stadium, 456 Stadium Dr, Stadium City, NJ 54321, USA",
+    "creator": {
+      "email": "BswQcoQW@dijfkthu.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "OSbfXlyD@ydgdwoib.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-29T00:22:52.778651",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-29T01:26:52.778651",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-63@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  }
+]

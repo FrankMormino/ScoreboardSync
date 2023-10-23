@@ -1,0 +1,60 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DTEND:20231025T161200Z
+LOCATION:Soccer Field\, 123 Main St\, Sample City\, NJ 12345\, USA
+DTSTART:20231025T142400Z
+SUMMARY:Mackenzie ⚽ Practice soccer
+UID:event-id-6806@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231029T012500Z
+LOCATION:Brick American Baseball League\, 2000 Lanes Mill Rd\, Brick Township\, NJ 08724\, USA
+DTSTART:20231028T233500Z
+SUMMARY:Avery ⚾ Practice baseball
+UID:event-id-1082@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231026T074400Z
+LOCATION:Toms River East Little League\, 2195 Windsor Ave\, Toms River\, NJ 08753\, USA
+DTSTART:20231026T062600Z
+SUMMARY:Andrew 🏀 Practice basketball
+UID:event-id-3675@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231024T190700Z
+LOCATION:Drum Point Sports Complex\, Brick Blvd\, Brick Township\, NJ 08723\, USA
+DTSTART:20231024T175000Z
+SUMMARY:Dominic 🥎 Match softball
+UID:event-id-7373@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231026T234700Z
+LOCATION:Soccer Field\, 123 Main St\, Sample City\, NJ 12345\, USA
+DTSTART:20231026T223400Z
+SUMMARY:Andrew ⚽ Practice soccer
+UID:event-id-6224@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231026T004400Z
+LOCATION:Football Stadium\, 456 Stadium Dr\, Stadium City\, NJ 54321\, USA
+DTSTART:20231025T224600Z
+SUMMARY:Frankie 🏈 Scrimmage football
+UID:event-id-3610@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231028T050900Z
+LOCATION:Tennis Court\, 101 Racket St\, Racketville\, NJ 13579\, USA
+DTSTART:20231028T030900Z
+SUMMARY:Adelina 🎾 Tournament tennis
+UID:event-id-2405@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231024T174300Z
+LOCATION:Lake Riviera Middle School\, 171 Beaverson Blvd\, Brick Township\, NJ 08723\, USA
+DTSTART:20231024T155400Z
+SUMMARY:Kalee 🏐 Camp volleyball
+UID:event-id-7200@google.com
+END:VEVENT
+END:VCALENDAR

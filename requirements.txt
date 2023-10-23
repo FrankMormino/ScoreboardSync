@@ -12,3 +12,4 @@ twilio==7.0.0
 Flask-WTF==0.15.1  # Add this line for Flask-WTF dependency
 
 requests~=2.31.0
+ics~=0.7.2

@@ -1,0 +1,1652 @@
+[
+  {
+    "kind": "calendar#event",
+    "etag": "3489680959739300",
+    "id": "event-id-9799",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-9964",
+    "created": "2023-10-23T12:38:20.067186",
+    "updated": "2023-10-23T12:38:20.067186",
+    "summary": "Kalee \ud83c\udfc0 Camp basketball",
+    "location": "Toms River East Little League, 2195 Windsor Ave, Toms River, NJ 08753, USA",
+    "creator": {
+      "email": "LlAghzzJ@nkdzghcf.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "dLQXPQFg@taaepeya.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-26T04:54:20.067186",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-26T06:21:20.067186",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-3967@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "4571763518895109",
+    "id": "event-id-8156",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-4054",
+    "created": "2023-10-23T12:38:20.069186",
+    "updated": "2023-10-23T12:38:20.069186",
+    "summary": "Frankie \ud83c\udfd0 Scrimmage volleyball",
+    "location": "Lake Riviera Middle School, 171 Beaverson Blvd, Brick Township, NJ 08723, USA",
+    "creator": {
+      "email": "pgeVhAzO@sqkdmnkq.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "QerOYdfz@owyrrzsy.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-26T21:33:20.069186",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-26T23:10:20.069186",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-6752@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "7966067679179766",
+    "id": "event-id-4893",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-4391",
+    "created": "2023-10-23T12:38:20.069186",
+    "updated": "2023-10-23T12:38:20.069186",
+    "summary": "Adelina \u26be Camp baseball",
+    "location": "Brick American Baseball League, 2000 Lanes Mill Rd, Brick Township, NJ 08724, USA",
+    "creator": {
+      "email": "gTqbQDga@pfoxjure.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "hAciEyDH@jlmtwcty.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-24T14:39:20.069186",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-24T15:40:20.069186",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-4925@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "3865051797816801",
+    "id": "event-id-2754",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-2894",
+    "created": "2023-10-23T12:38:20.070184",
+    "updated": "2023-10-23T12:38:20.070184",
+    "summary": "Olivia \ud83c\udfbe Game tennis",
+    "location": "Tennis Court, 101 Racket St, Racketville, NJ 13579, USA",
+    "creator": {
+      "email": "QCkgamft@iqcgmwqr.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "nzLBzvlX@odsiejkq.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-28T17:50:20.070184",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-28T19:31:20.070184",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-871@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "8259583948857486",
+    "id": "event-id-3432",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-2582",
+    "created": "2023-10-23T12:38:20.070184",
+    "updated": "2023-10-23T12:38:20.070184",
+    "summary": "Emma \u26be Practice baseball",
+    "location": "Brick American Baseball League, 2000 Lanes Mill Rd, Brick Township, NJ 08724, USA",
+    "creator": {
+      "email": "IZudLtCC@pmvejjzr.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "eEzgmbPs@wuyvgumh.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-27T19:34:20.070184",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-27T21:14:20.070184",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-6482@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "0913410214387028",
+    "id": "event-id-8788",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-1729",
+    "created": "2023-10-23T12:38:20.070184",
+    "updated": "2023-10-23T12:38:20.070184",
+    "summary": "Frankie \ud83c\udfc8 Clinic football",
+    "location": "Football Stadium, 456 Stadium Dr, Stadium City, NJ 54321, USA",
+    "creator": {
+      "email": "blicqyLR@xnlxryix.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "FmlTubNY@vctxufwr.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-26T11:59:20.070184",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-26T13:59:20.070184",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-2207@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "1187787560776505",
+    "id": "event-id-4375",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-8228",
+    "created": "2023-10-23T12:38:20.070184",
+    "updated": "2023-10-23T12:38:20.070184",
+    "summary": "Kalee \ud83c\udfc8 Clinic football",
+    "location": "Football Stadium, 456 Stadium Dr, Stadium City, NJ 54321, USA",
+    "creator": {
+      "email": "eycdqRyq@gboetidn.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "EVqfkxUl@aoykmjbv.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-28T14:33:20.070184",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-28T15:46:20.070184",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-3645@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "9926221402446031",
+    "id": "event-id-9379",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-5994",
+    "created": "2023-10-23T12:38:20.070184",
+    "updated": "2023-10-23T12:38:20.070184",
+    "summary": "Avery \ud83c\udfc0 Camp basketball",
+    "location": "Toms River East Little League, 2195 Windsor Ave, Toms River, NJ 08753, USA",
+    "creator": {
+      "email": "YuNrHSMz@brpxihxk.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "fXHwmZQf@nilyhibx.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-25T11:12:20.070184",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-25T12:45:20.070184",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-4060@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "9353666640386268",
+    "id": "event-id-6151",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-147",
+    "created": "2023-10-23T12:38:20.070184",
+    "updated": "2023-10-23T12:38:20.070184",
+    "summary": "Frankie \ud83e\udd4e Match softball",
+    "location": "Drum Point Sports Complex, Brick Blvd, Brick Township, NJ 08723, USA",
+    "creator": {
+      "email": "brNUfInT@mkjpakhr.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "MTTsSPnh@fsxrutvi.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-25T15:37:20.070184",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-25T17:12:20.070184",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-4886@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "4825396969726051",
+    "id": "event-id-2158",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-561",
+    "created": "2023-10-23T12:38:20.070184",
+    "updated": "2023-10-23T12:38:20.070184",
+    "summary": "Dominic \ud83c\udfd2 Practice hockey",
+    "location": "Hockey Arena, 789 Ice Rink Rd, Ice City, NJ 67890, USA",
+    "creator": {
+      "email": "LleAMxZi@urbnmbfz.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "edYNxicQ@mafkuquu.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-27T02:20:20.070184",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-27T03:56:20.070184",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-8302@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "2099655352154660",
+    "id": "event-id-5203",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-7174",
+    "created": "2023-10-23T12:38:20.071193",
+    "updated": "2023-10-23T12:38:20.071193",
+    "summary": "Emma \u26be Clinic baseball",
+    "location": "Brick American Baseball League, 2000 Lanes Mill Rd, Brick Township, NJ 08724, USA",
+    "creator": {
+      "email": "qLBUSCjT@ydtacswl.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "YgrLtQwL@rqnupded.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-26T14:24:20.071193",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-26T16:07:20.071193",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-8632@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "9286976876943441",
+    "id": "event-id-4764",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-8811",
+    "created": "2023-10-23T12:38:20.071193",
+    "updated": "2023-10-23T12:38:20.071193",
+    "summary": "Dominic \ud83c\udfc8 Match football",
+    "location": "Football Stadium, 456 Stadium Dr, Stadium City, NJ 54321, USA",
+    "creator": {
+      "email": "jcvlDPMj@olwynsjs.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "PhOPAeBd@qbvdshox.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-27T04:55:20.071193",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-27T06:17:20.071193",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-1057@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "6946087831919395",
+    "id": "event-id-3948",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-7726",
+    "created": "2023-10-23T12:38:20.071193",
+    "updated": "2023-10-23T12:38:20.071193",
+    "summary": "Olivia \ud83c\udfc8 Camp football",
+    "location": "Football Stadium, 456 Stadium Dr, Stadium City, NJ 54321, USA",
+    "creator": {
+      "email": "gyHkGCdp@vouzdvxa.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "UuTeEaDA@dzjoldam.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-28T16:23:20.071193",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-28T17:35:20.071193",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-2363@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "6180473888194615",
+    "id": "event-id-4061",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-1669",
+    "created": "2023-10-23T12:38:20.071193",
+    "updated": "2023-10-23T12:38:20.071193",
+    "summary": "Olivia \u26be Practice baseball",
+    "location": "Brick American Baseball League, 2000 Lanes Mill Rd, Brick Township, NJ 08724, USA",
+    "creator": {
+      "email": "crjJZqOT@wknqhdvr.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "AzZbljuv@ghxmmwsz.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-28T16:21:20.071193",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-28T18:18:20.071193",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-7037@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "5102393030108577",
+    "id": "event-id-4454",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-6594",
+    "created": "2023-10-23T12:38:20.071193",
+    "updated": "2023-10-23T12:38:20.071193",
+    "summary": "Frankie \u26bd Match soccer",
+    "location": "Soccer Field, 123 Main St, Sample City, NJ 12345, USA",
+    "creator": {
+      "email": "bgDbqyZr@seqhpnkx.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "ObUiDoFZ@sqbpsykj.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-28T19:43:20.071193",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-28T21:33:20.071193",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-9274@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "6304251830278176",
+    "id": "event-id-6030",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-6116",
+    "created": "2023-10-23T12:38:20.071193",
+    "updated": "2023-10-23T12:38:20.071193",
+    "summary": "Kalee \ud83c\udfd0 Tryout volleyball",
+    "location": "Lake Riviera Middle School, 171 Beaverson Blvd, Brick Township, NJ 08723, USA",
+    "creator": {
+      "email": "lBMEVdBi@hqctxldt.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "TuNnPTom@kfdcfaqr.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-25T20:40:20.071193",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-25T22:24:20.071193",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-996@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "5521578688300110",
+    "id": "event-id-4945",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-2879",
+    "created": "2023-10-23T12:38:20.071193",
+    "updated": "2023-10-23T12:38:20.071193",
+    "summary": "Frankie \ud83c\udfd0 Scrimmage volleyball",
+    "location": "Lake Riviera Middle School, 171 Beaverson Blvd, Brick Township, NJ 08723, USA",
+    "creator": {
+      "email": "RzcDltsB@bfmtbpde.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "zUcFVxkS@nytbawjf.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-26T08:44:20.071193",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-26T10:06:20.071193",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-7270@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "0446298835688825",
+    "id": "event-id-547",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-4248",
+    "created": "2023-10-23T12:38:20.071193",
+    "updated": "2023-10-23T12:38:20.071193",
+    "summary": "Kalee \ud83e\udd4e Tryout softball",
+    "location": "Drum Point Sports Complex, Brick Blvd, Brick Township, NJ 08723, USA",
+    "creator": {
+      "email": "RqlbsHya@beyvfrxe.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "sIHlAPcs@avpqdnxe.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-25T16:46:20.071193",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-25T18:21:20.071193",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-8277@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "1240602542624698",
+    "id": "event-id-5570",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-7653",
+    "created": "2023-10-23T12:38:20.072192",
+    "updated": "2023-10-23T12:38:20.072192",
+    "summary": "Mackenzie \ud83c\udfc8 Practice football",
+    "location": "Football Stadium, 456 Stadium Dr, Stadium City, NJ 54321, USA",
+    "creator": {
+      "email": "lwUEqquO@xjivbehl.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "EZtDnsKD@atnxnbzb.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-26T21:18:20.072192",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-26T23:06:20.072192",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-303@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "6958749013189539",
+    "id": "event-id-5978",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-8596",
+    "created": "2023-10-23T12:38:20.072192",
+    "updated": "2023-10-23T12:38:20.072192",
+    "summary": "Kalee \ud83c\udfd0 Game volleyball",
+    "location": "Lake Riviera Middle School, 171 Beaverson Blvd, Brick Township, NJ 08723, USA",
+    "creator": {
+      "email": "MJupWABe@pwzcdoyg.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "xwYVuJvZ@cuuzsqme.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-25T15:35:20.072192",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-25T17:29:20.072192",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-2455@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "8989004612527908",
+    "id": "event-id-1049",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-9054",
+    "created": "2023-10-23T12:38:20.072192",
+    "updated": "2023-10-23T12:38:20.072192",
+    "summary": "Andrew \ud83c\udfd2 Scrimmage hockey",
+    "location": "Hockey Arena, 789 Ice Rink Rd, Ice City, NJ 67890, USA",
+    "creator": {
+      "email": "WNxBUUmD@detlbduw.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "TcFeRtWp@xmcxqpim.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-29T11:11:20.072192",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-29T12:46:20.072192",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-3375@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "3686411320976038",
+    "id": "event-id-3793",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-8582",
+    "created": "2023-10-23T12:38:20.072192",
+    "updated": "2023-10-23T12:38:20.072192",
+    "summary": "Emma \ud83c\udfc8 Practice football",
+    "location": "Football Stadium, 456 Stadium Dr, Stadium City, NJ 54321, USA",
+    "creator": {
+      "email": "XqnGPWDz@xsbcbznk.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "wNTjygcE@mqxfniis.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-27T22:36:20.072192",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-27T23:45:20.072192",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-7000@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "5173137860526348",
+    "id": "event-id-3001",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-3553",
+    "created": "2023-10-23T12:38:20.072192",
+    "updated": "2023-10-23T12:38:20.072192",
+    "summary": "Adelina \ud83e\udd4e Tryout softball",
+    "location": "Drum Point Sports Complex, Brick Blvd, Brick Township, NJ 08723, USA",
+    "creator": {
+      "email": "aTjYESgQ@fklnsgpk.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "IPiuSfne@ozduffma.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-28T04:23:20.072192",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-28T05:30:20.072192",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-1063@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "1500304830879145",
+    "id": "event-id-3972",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-4850",
+    "created": "2023-10-23T12:38:20.072192",
+    "updated": "2023-10-23T12:38:20.072192",
+    "summary": "Andrew \ud83c\udfc8 Clinic football",
+    "location": "Football Stadium, 456 Stadium Dr, Stadium City, NJ 54321, USA",
+    "creator": {
+      "email": "gWFuMSLi@ahlmvnht.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "SgftzLje@luoxtqzg.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-29T00:49:20.072192",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-29T02:40:20.072192",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-5514@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "2114961032503330",
+    "id": "event-id-3595",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-35",
+    "created": "2023-10-23T12:38:20.072192",
+    "updated": "2023-10-23T12:38:20.072192",
+    "summary": "Frankie \u26bd Practice soccer",
+    "location": "Soccer Field, 123 Main St, Sample City, NJ 12345, USA",
+    "creator": {
+      "email": "ioTApBQi@pzvzumki.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "MvDXiiqk@txjkioaj.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-28T22:10:20.072192",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-28T23:35:20.072192",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-6836@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "5032663432511737",
+    "id": "event-id-1855",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-8139",
+    "created": "2023-10-23T12:38:20.073192",
+    "updated": "2023-10-23T12:38:20.073192",
+    "summary": "Andrew \u26be Clinic baseball",
+    "location": "Brick American Baseball League, 2000 Lanes Mill Rd, Brick Township, NJ 08724, USA",
+    "creator": {
+      "email": "nJmmrnmN@uekbqjnb.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "qTwYcrXJ@jwhpdcru.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-28T15:25:20.073192",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-28T17:24:20.073192",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-3095@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "7476106701882714",
+    "id": "event-id-6628",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-6290",
+    "created": "2023-10-23T12:38:20.073192",
+    "updated": "2023-10-23T12:38:20.073192",
+    "summary": "Olivia \ud83c\udfc0 Scrimmage basketball",
+    "location": "Toms River East Little League, 2195 Windsor Ave, Toms River, NJ 08753, USA",
+    "creator": {
+      "email": "FJDZJFCB@gxhimnkf.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "XViHrVqx@ducoplhr.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-27T03:52:20.073192",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-27T05:02:20.073192",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-7730@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "0290403746955714",
+    "id": "event-id-4230",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-1291",
+    "created": "2023-10-23T12:38:20.073192",
+    "updated": "2023-10-23T12:38:20.073192",
+    "summary": "Frankie \u26be Scrimmage baseball",
+    "location": "Brick American Baseball League, 2000 Lanes Mill Rd, Brick Township, NJ 08724, USA",
+    "creator": {
+      "email": "DLidrsjX@nfesmjaq.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "TEYeBpFh@cswindww.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-25T01:44:20.073192",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-25T02:50:20.073192",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-7697@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "3688799655907017",
+    "id": "event-id-2660",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-3864",
+    "created": "2023-10-23T12:38:20.073192",
+    "updated": "2023-10-23T12:38:20.073192",
+    "summary": "Kalee \u26bd Tryout soccer",
+    "location": "Soccer Field, 123 Main St, Sample City, NJ 12345, USA",
+    "creator": {
+      "email": "iRnbpQSL@tidhhbqd.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "TxZSUgTq@xziyevxt.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-25T00:44:20.073192",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-25T01:49:20.073192",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-3895@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "2319632143209925",
+    "id": "event-id-5893",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-84",
+    "created": "2023-10-23T12:38:20.073192",
+    "updated": "2023-10-23T12:38:20.073192",
+    "summary": "Mackenzie \ud83c\udfc8 Clinic football",
+    "location": "Football Stadium, 456 Stadium Dr, Stadium City, NJ 54321, USA",
+    "creator": {
+      "email": "NlwxTvgl@cueuggii.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "oDvHmdnT@cpwrfkpy.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-26T13:57:20.073192",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-26T15:20:20.073192",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-1667@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "4870671557706544",
+    "id": "event-id-5630",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-43",
+    "created": "2023-10-23T12:38:20.073192",
+    "updated": "2023-10-23T12:38:20.073192",
+    "summary": "Dominic \ud83c\udfd2 Tournament hockey",
+    "location": "Hockey Arena, 789 Ice Rink Rd, Ice City, NJ 67890, USA",
+    "creator": {
+      "email": "bSvhNhtC@qbmjrkdz.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "etoOrcoI@eqenevgx.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-27T13:33:20.073192",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-27T15:15:20.073192",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-8074@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "0245698779960336",
+    "id": "event-id-1715",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-7499",
+    "created": "2023-10-23T12:38:20.073192",
+    "updated": "2023-10-23T12:38:20.073192",
+    "summary": "Kalee \ud83e\udd4e Game softball",
+    "location": "Drum Point Sports Complex, Brick Blvd, Brick Township, NJ 08723, USA",
+    "creator": {
+      "email": "jJYxQVct@hlfaovpz.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "aDhIYTqW@vinamcjk.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-28T22:54:20.073192",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-29T00:21:20.073192",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-7108@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "5703075880891042",
+    "id": "event-id-1621",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-4589",
+    "created": "2023-10-23T12:38:20.074192",
+    "updated": "2023-10-23T12:38:20.074192",
+    "summary": "Andrew \u26be Practice baseball",
+    "location": "Brick American Baseball League, 2000 Lanes Mill Rd, Brick Township, NJ 08724, USA",
+    "creator": {
+      "email": "HWnbprbb@rpumosmx.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "RNegjoWH@ejddlmid.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-26T19:47:20.074192",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-26T21:25:20.074192",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-3085@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "9256572708893404",
+    "id": "event-id-3314",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-564",
+    "created": "2023-10-23T12:38:20.074192",
+    "updated": "2023-10-23T12:38:20.074192",
+    "summary": "Mackenzie \ud83c\udfc8 Game football",
+    "location": "Football Stadium, 456 Stadium Dr, Stadium City, NJ 54321, USA",
+    "creator": {
+      "email": "cTRPHjqQ@bblxoxbl.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "TSfPGcNM@jrswpkon.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-24T15:31:20.074192",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-24T16:56:20.074192",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-4444@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "8476959823870027",
+    "id": "event-id-5918",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-7394",
+    "created": "2023-10-23T12:38:20.074192",
+    "updated": "2023-10-23T12:38:20.074192",
+    "summary": "Mackenzie \ud83c\udfc8 Clinic football",
+    "location": "Football Stadium, 456 Stadium Dr, Stadium City, NJ 54321, USA",
+    "creator": {
+      "email": "FasfZGHv@xwfinmdy.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "amGfTkvS@edvumhyq.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-28T07:51:20.074192",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-28T09:26:20.074192",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-9633@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "2554643743862978",
+    "id": "event-id-7465",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-660",
+    "created": "2023-10-23T12:38:20.074192",
+    "updated": "2023-10-23T12:38:20.074192",
+    "summary": "Olivia \ud83c\udfc0 Practice basketball",
+    "location": "Toms River East Little League, 2195 Windsor Ave, Toms River, NJ 08753, USA",
+    "creator": {
+      "email": "HAMCPDQA@yzbhokhz.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "qxuNdqhE@aohorkau.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-25T11:07:20.074192",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-25T12:10:20.074192",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-2215@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "6742258899747262",
+    "id": "event-id-8142",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-7083",
+    "created": "2023-10-23T12:38:20.074192",
+    "updated": "2023-10-23T12:38:20.074192",
+    "summary": "Dominic \ud83c\udfd2 Scrimmage hockey",
+    "location": "Hockey Arena, 789 Ice Rink Rd, Ice City, NJ 67890, USA",
+    "creator": {
+      "email": "wRLhvOcg@mpupbguf.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "SNQgrEZz@vhfzgner.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-25T21:40:20.074192",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-25T23:21:20.074192",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-3969@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "5694696692456909",
+    "id": "event-id-7165",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-4051",
+    "created": "2023-10-23T12:38:20.074192",
+    "updated": "2023-10-23T12:38:20.074192",
+    "summary": "Joey \ud83c\udfbe Practice tennis",
+    "location": "Tennis Court, 101 Racket St, Racketville, NJ 13579, USA",
+    "creator": {
+      "email": "fFuGuWea@rcpdxjpr.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "ZmPThEED@glakwdov.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-24T23:43:20.074192",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-25T01:04:20.074192",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-8347@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "3032301893247064",
+    "id": "event-id-8547",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-9019",
+    "created": "2023-10-23T12:38:20.074192",
+    "updated": "2023-10-23T12:38:20.074192",
+    "summary": "Joey \ud83c\udfc0 Clinic basketball",
+    "location": "Toms River East Little League, 2195 Windsor Ave, Toms River, NJ 08753, USA",
+    "creator": {
+      "email": "KKEmanGx@qtcwqsrt.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "WVVWFXrz@tyeutqnq.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-26T19:05:20.074192",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-26T20:52:20.074192",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-7926@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "2166467454569804",
+    "id": "event-id-1939",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-5679",
+    "created": "2023-10-23T12:38:20.074192",
+    "updated": "2023-10-23T12:38:20.074192",
+    "summary": "Kalee \ud83c\udfd2 Clinic hockey",
+    "location": "Hockey Arena, 789 Ice Rink Rd, Ice City, NJ 67890, USA",
+    "creator": {
+      "email": "TNVBVpCp@jgxknoyo.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "ZxvHqpdQ@cmpakngp.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-28T15:09:20.074192",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-28T16:38:20.074192",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-8025@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "5702512665442282",
+    "id": "event-id-7181",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-1163",
+    "created": "2023-10-23T12:38:20.075197",
+    "updated": "2023-10-23T12:38:20.075197",
+    "summary": "Frankie \ud83c\udfbe Scrimmage tennis",
+    "location": "Tennis Court, 101 Racket St, Racketville, NJ 13579, USA",
+    "creator": {
+      "email": "YRpwXBdq@witklnbm.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "ZAjkcUTW@ssslywqn.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-25T07:12:20.075197",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-25T08:34:20.075197",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-9415@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "6964549695029030",
+    "id": "event-id-7676",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-9565",
+    "created": "2023-10-23T12:38:20.075197",
+    "updated": "2023-10-23T12:38:20.075197",
+    "summary": "Kalee \ud83c\udfc8 Clinic football",
+    "location": "Football Stadium, 456 Stadium Dr, Stadium City, NJ 54321, USA",
+    "creator": {
+      "email": "SLtAGYzI@yvojhnri.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "ULuOHBZv@cmmytmks.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-25T05:50:20.075197",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-25T07:16:20.075197",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-912@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "1491407486866839",
+    "id": "event-id-3760",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-3677",
+    "created": "2023-10-23T12:38:20.075197",
+    "updated": "2023-10-23T12:38:20.075197",
+    "summary": "Kalee \ud83c\udfc0 Tournament basketball",
+    "location": "Toms River East Little League, 2195 Windsor Ave, Toms River, NJ 08753, USA",
+    "creator": {
+      "email": "zYFubJRj@jrqzzdcx.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "TqboJJmA@dzgqmocb.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-28T11:28:20.075197",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-28T12:47:20.075197",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-9636@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "8799621347723881",
+    "id": "event-id-6460",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-8559",
+    "created": "2023-10-23T12:38:20.075197",
+    "updated": "2023-10-23T12:38:20.075197",
+    "summary": "Emma \u26be Scrimmage baseball",
+    "location": "Brick American Baseball League, 2000 Lanes Mill Rd, Brick Township, NJ 08724, USA",
+    "creator": {
+      "email": "oXVEpOog@nrbsxryi.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "HHcMGeaf@ahvkydpj.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-28T17:29:20.075197",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-28T19:09:20.075197",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-664@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "2005594941554273",
+    "id": "event-id-9084",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-9661",
+    "created": "2023-10-23T12:38:20.075197",
+    "updated": "2023-10-23T12:38:20.075197",
+    "summary": "Andrew \ud83c\udfd2 Camp hockey",
+    "location": "Hockey Arena, 789 Ice Rink Rd, Ice City, NJ 67890, USA",
+    "creator": {
+      "email": "HQChgZIz@gafrhqwg.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "iEDtWIXa@tlwmhucq.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-28T20:37:20.075197",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-28T22:22:20.075197",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-6170@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "5848738405764103",
+    "id": "event-id-2496",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-3061",
+    "created": "2023-10-23T12:38:20.075197",
+    "updated": "2023-10-23T12:38:20.075197",
+    "summary": "Andrew \u26bd Practice soccer",
+    "location": "Soccer Field, 123 Main St, Sample City, NJ 12345, USA",
+    "creator": {
+      "email": "PqJCnfZz@mjkmxasf.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "bxGKSAGu@yxvexdmu.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-27T22:53:20.075197",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-28T00:52:20.075197",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-5851@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "2578700224815106",
+    "id": "event-id-5999",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-6655",
+    "created": "2023-10-23T12:38:20.075197",
+    "updated": "2023-10-23T12:38:20.075197",
+    "summary": "Mackenzie \ud83c\udfd2 Game hockey",
+    "location": "Hockey Arena, 789 Ice Rink Rd, Ice City, NJ 67890, USA",
+    "creator": {
+      "email": "ESuspXYo@mjqxsbon.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "AnVNTotP@zkaswcul.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-29T00:51:20.075197",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-29T02:48:20.075197",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-7347@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "4965794280056963",
+    "id": "event-id-8255",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-2268",
+    "created": "2023-10-23T12:38:20.076192",
+    "updated": "2023-10-23T12:38:20.076192",
+    "summary": "Olivia \ud83c\udfc0 Camp basketball",
+    "location": "Toms River East Little League, 2195 Windsor Ave, Toms River, NJ 08753, USA",
+    "creator": {
+      "email": "RBDLsLsB@wyfqthcr.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "lKprhtpK@zlmzilpl.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-26T22:03:20.076192",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-26T23:34:20.076192",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-5109@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "8478606165634432",
+    "id": "event-id-4595",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-5530",
+    "created": "2023-10-23T12:38:20.076192",
+    "updated": "2023-10-23T12:38:20.076192",
+    "summary": "Mackenzie \ud83c\udfd2 Clinic hockey",
+    "location": "Hockey Arena, 789 Ice Rink Rd, Ice City, NJ 67890, USA",
+    "creator": {
+      "email": "QALPrnHC@jqkoqglv.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "onxRBShS@onbbwzhr.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-25T05:54:20.076192",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-25T07:28:20.076192",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-2675@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "3920633320161288",
+    "id": "event-id-319",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=event-id-6416",
+    "created": "2023-10-23T12:38:20.076192",
+    "updated": "2023-10-23T12:38:20.076192",
+    "summary": "Frankie \ud83c\udfc0 Tryout basketball",
+    "location": "Toms River East Little League, 2195 Windsor Ave, Toms River, NJ 08753, USA",
+    "creator": {
+      "email": "qjXaXtdh@ohckyppw.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "ChAqRcfJ@ztslipwr.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-25T12:03:20.076192",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-25T13:20:20.076192",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "event-id-3125@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  }
+]

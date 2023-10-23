@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DTEND:20231029T141052Z
+LOCATION:Hockey Arena\, 789 Ice Rink Rd\, Ice City\, NJ 67890\, USA
+DTSTART:20231029T121852Z
+SUMMARY:Dominic \\U0001f3d2 Tournament hockey
+UID:event-id-2093@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231025T152252Z
+LOCATION:Drum Point Sports Complex\, Brick Blvd\, Brick Township\, NJ 08723\, USA
+DTSTART:20231025T133852Z
+SUMMARY:Emma \\U0001f94e Camp softball
+UID:event-id-18@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231029T012652Z
+LOCATION:Football Stadium\, 456 Stadium Dr\, Stadium City\, NJ 54321\, USA
+DTSTART:20231029T002252Z
+SUMMARY:Avery \\U0001f3c8 Scrimmage football
+UID:event-id-63@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231025T202152Z
+LOCATION:Brick American Baseball League\, 2000 Lanes Mill Rd\, Brick Township\, NJ 08724\, USA
+DTSTART:20231025T191252Z
+SUMMARY:Avery \\u26be Camp baseball
+UID:event-id-2544@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231027T140452Z
+LOCATION:Drum Point Sports Complex\, Brick Blvd\, Brick Township\, NJ 08723\, USA
+DTSTART:20231027T124852Z
+SUMMARY:Avery \\U0001f94e Practice softball
+UID:event-id-3109@google.com
+END:VEVENT
+END:VCALENDAR

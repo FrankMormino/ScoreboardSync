@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DTEND:20231028T212145Z
+LOCATION:Drum Point Sports Complex\, Brick Blvd\, Brick Township\, NJ 08723\, USA
+DTSTART:20231028T195545Z
+SUMMARY:Olivia \\U0001f94e Scrimmage softball
+UID:event-id-4694@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231027T202345Z
+LOCATION:Brick American Baseball League\, 2000 Lanes Mill Rd\, Brick Township\, NJ 08724\, USA
+DTSTART:20231027T192045Z
+SUMMARY:Joey \\u26be Clinic baseball
+UID:event-id-8614@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231027T113745Z
+LOCATION:Toms River East Little League\, 2195 Windsor Ave\, Toms River\, NJ 08753\, USA
+DTSTART:20231027T102445Z
+SUMMARY:Mackenzie \\U0001f3c0 Game basketball
+UID:event-id-1823@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231024T221345Z
+LOCATION:Lake Riviera Middle School\, 171 Beaverson Blvd\, Brick Township\, NJ 08723\, USA
+DTSTART:20231024T203245Z
+SUMMARY:Olivia \\U0001f3d0 Clinic volleyball
+UID:event-id-2457@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231025T051945Z
+LOCATION:Drum Point Sports Complex\, Brick Blvd\, Brick Township\, NJ 08723\, USA
+DTSTART:20231025T041345Z
+SUMMARY:Andrew \\U0001f94e Game softball
+UID:event-id-1073@google.com
+END:VEVENT
+END:VCALENDAR
