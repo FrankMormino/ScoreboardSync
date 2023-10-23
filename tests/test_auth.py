@@ -2,6 +2,8 @@ import unittest
 from unittest.mock import patch
 from flask import url_for
 from app.auth import app
+import sys; print(sys.path)
+
 
 class TestAuth(unittest.TestCase):
 

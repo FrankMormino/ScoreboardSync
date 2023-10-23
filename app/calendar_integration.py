@@ -1,5 +1,5 @@
 from flask import Flask, request, session, redirect, url_for
-from auth import google, outlook  # Import the OAuth setups from auth.py
+from app.auth import google, outlook  # Import the OAuth setups from auth.py
 import datetime
 from googleapiclient.discovery import build
 import requests  # Import the requests library
