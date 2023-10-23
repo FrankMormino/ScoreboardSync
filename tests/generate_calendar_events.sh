@@ -68,7 +68,8 @@ done
 
 # Save the events to a JSON file
 echo "[" >>calendar_events.json
-echo "${events[@]}" >>calendar_events.json
+# Consider using { cmd1; cmd2; } >> file instead of individual redirects.
+echo "${events[@]}" | sed 's/,$//' >>calendar_events.json  # Remove trailing comma
 echo "]" >>calendar_events.json
 
 
