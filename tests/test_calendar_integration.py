@@ -6,8 +6,12 @@ from app.calendar_integration import app
 class TestCalendarIntegration(unittest.TestCase):
 
     def setUp(self):
-        app.config['TESTING'] = True
         self.app = app.test_client()
+        self.app_context = app.app_context()
+        self.app_context.push()
+
+    def tearDown(self):
+        self.app_context.pop()
 
     @patch('app.calendar_integration.google')
     def test_fetch_google_events(self, mock_google):

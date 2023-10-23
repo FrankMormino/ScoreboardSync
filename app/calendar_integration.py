@@ -10,6 +10,7 @@ app = Flask(__name__)
 # Make sure to have secret key for session management
 app.secret_key = os.environ.get('FLASK_SECRET_KEY')  # Use the environment variable for your secret key
 
+
 @app.route('/fetch_google_events')
 def fetch_google_events():
     if 'google_token' in session:
@@ -23,6 +24,7 @@ def fetch_google_events():
             events = events_result.get('items', [])
             return str(events)  # Convert to string for simple display
     return redirect(url_for('login_google'))
+
 
 @app.route('/fetch_outlook_events')
 def fetch_outlook_events():

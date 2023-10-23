@@ -2,9 +2,9 @@ from flask import Flask, redirect, url_for, session, request
 from flask_oauthlib.client import OAuth
 import os
 
-# Initialize Flask app and OAuth
-app = Flask(__name__)
-oauth = OAuth(app)
+# Initialize Flask app and OAuth object
+app = Flask(__name__)  # Create Flask app
+oauth = OAuth(app)  # Create OAuth object
 
 # Set up Google OAuth
 google = oauth.remote_app(
@@ -36,17 +36,21 @@ outlook = oauth.remote_app(
     authorize_url='https://login.microsoftonline.com/common/oauth2/v2.0/authorize',
 )
 
+
 @app.route('/')
 def index():
     return 'Welcome to the Family Sports Schedule Notification System!'
 
-@app.route('/login/outlook')
+
+@app.route('/login_outlook')
 def login_outlook():
     return outlook.authorize(callback=url_for('authorized_outlook', _external=True))
 
-@app.route('/login/google')
+
+@app.route('/login_google')
 def login_google():
     return google.authorize(callback=url_for('authorized_google', _external=True))
+
 
 @app.route('/login/authorized/google')
 def authorized_google():
@@ -70,5 +74,6 @@ def authorized_outlook():
         )
     session['outlook_token'] = (resp['access_token'], '')  # Save token in session
     return redirect(url_for('fetch_outlook_events'))  # Redirect to fetch events
+
 
 app.secret_key = os.environ.get('FLASK_SECRET_KEY')  # Use the environment variable for your secret key
