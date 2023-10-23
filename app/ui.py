@@ -1,5 +1,10 @@
 from flask import Flask, render_template, request, redirect, url_for, flash, jsonify, send_from_directory
-from forms import LinkCalendarForm, NotificationConfigForm  # Import your actual form classes from forms.py
+#from forms import LinkCalendarForm, NotificationConfigForm  # Import your actual form classes from forms.py
+# Replace this line:
+# from forms import LinkCalendarForm, NotificationConfigForm
+# With this line:
+from app.forms import LinkCalendarForm, NotificationConfigForm
+
 import logging
 
 app = Flask(__name__)
@@ -52,4 +57,3 @@ def page_not_found(e):
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO)
     app.run()
-
