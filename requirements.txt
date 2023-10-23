@@ -9,3 +9,6 @@ APScheduler==3.8.0
 Werkzeug==2.0.0  # Updated to version 2.0.0
 WTForms==2.3.3
 twilio==7.0.0
+Flask-WTF==0.15.1  # Add this line for Flask-WTF dependency
+
+requests~=2.31.0

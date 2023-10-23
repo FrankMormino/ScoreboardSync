@@ -1,16 +1,20 @@
-from flask import Flask, render_template, request, redirect, url_for, flash, jsonify, send_from_directory
-# from forms import LinkCalendarForm, NotificationConfigForm  # Import your actual form classes from forms.py
-# Replace this line:
-# from forms import LinkCalendarForm, NotificationConfigForm
-# With this line:
-from app.forms import LinkCalendarForm, NotificationConfigForm
-
-import logging
-
 import os
+import logging
+from flask import (
+    Flask, render_template, request,
+    redirect, url_for, flash, jsonify,
+    send_from_directory
+)
+from app.calendar_integration import calendar_integration  # Import the calendar_integration Blueprint
+from app.forms import LinkCalendarForm, NotificationConfigForm
+from app.auth import auth
 
 app = Flask(__name__)
 app.secret_key = os.environ.get('FLASK_SECRET_KEY')
+app.config['TEMPLATES_AUTO_RELOAD'] = True
+
+app.register_blueprint(auth, url_prefix='/auth')
+app.register_blueprint(calendar_integration, url_prefix='/calendar_integration')
 
 
 @app.route('/')
@@ -22,8 +26,6 @@ def home():
 def link_calendar():
     form = LinkCalendarForm(request.form)
     if request.method == 'POST' and form.validate():
-        # Process the submitted form data
-        # ...
         flash('Calendar linked successfully!', 'success')
         return redirect(url_for('home'))
     return render_template('link_calendar.html', form=form)
@@ -33,8 +35,6 @@ def link_calendar():
 def notification_config():
     form = NotificationConfigForm(request.form)
     if request.method == 'POST' and form.validate():
-        # Process the submitted form data
-        # ...
         flash('Configuration saved successfully!', 'success')
         return redirect(url_for('home'))
     return render_template('notification_config.html', form=form)
@@ -42,7 +42,6 @@ def notification_config():
 
 @app.route('/view_schedule')
 def view_schedule():
-    # Fetch the synchronized sports schedule from your data store
     # Assume get_schedule is a function that fetches the schedule from your data store
     schedule = get_schedule()
     return render_template('view_schedule.html', schedule=schedule)

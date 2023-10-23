@@ -1,8 +1,10 @@
 from apscheduler.schedulers.background import BackgroundScheduler
 from flask import Flask
+from app.ui import app
+from app.calendar_integration import fetch_google_events, fetch_outlook_events
 
-app = Flask(__name__)
 scheduler = BackgroundScheduler()
+
 
 def synchronize_data():
     # Call your functions to fetch data from Google and Outlook
@@ -10,9 +12,7 @@ def synchronize_data():
     fetch_google_events()
     fetch_outlook_events()
 
+
 # Schedule the synchronize_data function to run every hour
 scheduler.add_job(synchronize_data, 'interval', hours=1)
 scheduler.start()
-
-if __name__ == '__main__':
-    app.run()

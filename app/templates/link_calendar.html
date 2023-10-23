@@ -1,17 +1,54 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <!-- ... -->
+    <!-- Include the main.css file for styling -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
+    <!-- ... other head elements ... -->
 </head>
 <body>
     <h1>Link Your Calendar</h1>
-    <form method="post">
+    <form method="post" id="link-calendar-form">
         <!-- CSRF Token -->
         {{ form.hidden_tag() }}
         <!-- Form fields for calendar linking -->
-        {{ form.some_field.label }}: {{ form.some_field() }}<br>
+        {{ form.calendar_url.label }}: {{ form.calendar_url() }}<br>
         <!-- ... add other form fields ... -->
         <input type="submit" value="Link Calendar">
     </form>
+
+    <!-- Error Messages -->
+    {% if errors %}
+        <div class="errors">
+            {% for error in errors %}
+                <p>{{ error }}</p>
+            {% endfor %}
+        </div>
+    {% endif %}
+
+    <!-- Success Message -->
+    {% if success_message %}
+        <div class="success">{{ success_message }}</div>
+    {% endif %}
+
+    <!-- Instructions -->
+    <div class="instructions">
+        <p>Find your Google Calendar URL by going to ...</p>
+        <!-- More instructions or a link to a help page -->
+    </div>
+
+<!-- OAuth Integration -->
+<div class="oauth-buttons">
+    <a href="{{ url_for('auth.login_google') }}" class="oauth-button">Link Google Calendar</a>
+    <a href="{{ url_for('auth.login_outlook') }}" class="oauth-button">Link Outlook Calendar</a>
+</div>
+
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+    <!-- Loading Spinner (hidden by default) -->
+    <div id="loading-spinner">
+        <img src="{{ url_for('static', filename='img/loading-spinner.gif') }}" alt="Loading...">
+    </div>
 </body>
 </html>
