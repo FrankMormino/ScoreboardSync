@@ -62,13 +62,15 @@ events=()
 
 # Generate the specified number of events
 for ((i = 1; i <= num_events; i++)); do
-  events+=("$(generate_event)")
+  event=$(generate_event)  # Generate an event
+  events+=("$event")       # Add it to the events array
 done
 
 # Save the events to a JSON file
 echo "[" >>calendar_events.json
 echo "${events[@]}" >>calendar_events.json
 echo "]" >>calendar_events.json
+
 
 echo "Events have been generated and saved to calendar_events.json."
 

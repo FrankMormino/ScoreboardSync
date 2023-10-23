@@ -1,3 +1,5 @@
+# Description: This file contains the code to synchronize data from Google and Outlook.
+# File name: data_synchronization.py
 from apscheduler.schedulers.background import BackgroundScheduler
 from flask import Flask
 from app.ui import app

@@ -1,6 +1,6 @@
 # Description: This file contains the routes for the calendar integration
 # File name: calendar_integration.py
-
+import json
 
 from flask import Blueprint, session, redirect, url_for
 from app.auth import google  # Import the OAuth setups from auth.py
@@ -22,7 +22,8 @@ calendar_integration = Blueprint('calendar_integration', __name__)
 def fetch_google_events():
     # Check if the token file exists and load the credentials from it
     if os.path.exists('token.json'):
-        creds = Credentials.from_authorized_user_file('token.json', ['https://www.googleapis.com/auth/calendar.readonly'])
+        creds = Credentials.from_authorized_user_file('token.json',
+                                                      ['https://www.googleapis.com/auth/calendar.readonly'])
         # If there are no (valid) credentials available, redirect to login
         if not creds or not creds.valid:
             if creds and creds.expired and creds.refresh_token:
@@ -41,14 +42,14 @@ def fetch_google_events():
                 calendarId='primary', timeMin=now, singleEvents=True, orderBy='startTime'
             ).execute()
             events = events_result.get('items', [])
-            return str(events)  # Convert to string for simple display
+            # return str(events)  # Convert to string for simple display
+            return json.dumps(events)  # Convert to a valid JSON string
 
         except HttpError as error:
             print(f'An error occurred: {error}')  # Log the error for debugging
             return f'Error: {error}', 500  # Return a 500 Internal Server Error response
 
     return redirect(url_for('auth.login_google'))  # Redirect to the login page if necessary
-
 
 
 @calendar_integration.route('/fetch_outlook_events')
@@ -64,7 +65,8 @@ def fetch_outlook_events():
         response = requests.get(outlook_api_endpoint, headers=headers)  # Use requests to make the API call
         if response.status_code == 200:
             events = response.json()
-            return str(events)  # Convert to string for simple display
+            # return str(events)  # Convert to string for simple display
+            return json.dumps(events)  # Convert to a valid JSON string
         else:
             return f'Error: {response.status_code}', response.status_code  # Handle error responses
     return redirect(url_for('auth.login_outlook'))  # in fetch_outlook_events
