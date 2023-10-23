@@ -117,10 +117,12 @@ for ((i = 1; i <= num_events; i++)); do
 done
 
 # Save the events to a JSON file
-echo "[" >>calendar_events.json
-# Consider using { cmd1; cmd2; } >> file instead of individual redirects.
-echo "${events[@]}" | sed "s/,$//" >>calendar_events.json  # Remove trailing comma
-echo "]" >>calendar_events.json
+echo "[" > calendar_events.json  # Overwrite the file, creating a new one
+# Join the events with commas and add them to the file
+IFS=','  # Set the Internal Field Separator to a comma
+echo "${events[*]}" >> calendar_events.json
+echo "]" >> calendar_events.json
+
 
 
 
