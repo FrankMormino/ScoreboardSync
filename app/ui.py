@@ -76,4 +76,4 @@ def page_not_found(e):
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO)
-    app.run(debug=True)
+    app.run(debug=False)
