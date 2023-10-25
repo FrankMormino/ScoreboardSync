@@ -49,6 +49,9 @@ def generate_email():
     domain = ''.join(random.choice(string.ascii_lowercase) for _ in range(8))
     return f"{name}@{domain}.com"
 
+def generate_random_id(length=26): # Default length is 26 characters
+    characters = string.ascii_letters + string.digits
+    return ''.join(random.choice(characters) for _ in range(length))
 
 # Function to generate a random event
 def generate_event():
@@ -103,9 +106,9 @@ def generate_event():
     event_data = {
         "kind": "calendar#event",
         "etag": ''.join(random.choice(string.digits) for _ in range(16)),
-        "id": f"event-id-{random.randint(1, 9999)}",
+        "id": generate_random_id(),
         "status": "confirmed",
-        "htmlLink": f"https://www.google.com/calendar/event?eid=event-id-{random.randint(1, 9999)}",
+        "htmlLink": f"https://www.google.com/calendar/event?eid={generate_random_id()}",
         "created": created_time,  # Set "created" to the current date and time
         "updated": created_time,  # Set "updated" to the current date and time
         "summary": summary,
@@ -114,7 +117,7 @@ def generate_event():
         "organizer": {"email": generate_email(), "self": True},
         "start": {"dateTime": start_time, "timeZone": "America/New_York"},
         "end": {"dateTime": end_time, "timeZone": "America/New_York"},
-        "iCalUID": f"event-id-{random.randint(1, 9999)}@google.com",
+        "iCalUID": f"{generate_random_id()}@google.com",
         "sequence": 0,
         "reminders": {"useDefault": True},
         "eventType": "default"

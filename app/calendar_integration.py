@@ -20,6 +20,7 @@ calendar_integration = Blueprint('calendar_integration', __name__)
 
 @calendar_integration.route('/fetch_google_events')
 def fetch_google_events():
+    events = []  # Initialize an empty list to hold the events
     # Check if the token file exists and load the credentials from it
     if os.path.exists('token.json'):
         creds = Credentials.from_authorized_user_file('token.json',
@@ -32,7 +33,7 @@ def fetch_google_events():
                 with open('token.json', 'w') as token:
                     token.write(creds.to_json())
             else:
-                return redirect(url_for('auth.login_google'))
+                return events  # Return an empty list if credentials are not available
 
         try:
             # Build the Google Calendar API client
@@ -42,18 +43,20 @@ def fetch_google_events():
                 calendarId='primary', timeMin=now, singleEvents=True, orderBy='startTime'
             ).execute()
             events = events_result.get('items', [])
-            # return str(events)  # Convert to string for simple display
-            return json.dumps(events)  # Convert to a valid JSON string
+            # return events  # Return the list of dictionaries directly
+            return json.dumps(events)  # Return the list of dictionaries as a JSON string
 
         except HttpError as error:
             print(f'An error occurred: {error}')  # Log the error for debugging
-            return f'Error: {error}', 500  # Return a 500 Internal Server Error response
+            return events  # Return an empty list in case of an error
 
-    return redirect(url_for('auth.login_google'))  # Redirect to the login page if necessary
+    # return events  # Return an empty list if the token file does not exist
+    return json.dumps(events)  # Return an empty list as a JSON string
 
 
 @calendar_integration.route('/fetch_outlook_events')
 def fetch_outlook_events():
+    events = []  # Initialize an empty list to hold the events
     if 'outlook_token' in session:
         token = session['outlook_token'][0]  # Assume token is stored as a tuple
         headers = {
@@ -64,9 +67,14 @@ def fetch_outlook_events():
         outlook_api_endpoint = 'https://graph.microsoft.com/v1.0/me/events'
         response = requests.get(outlook_api_endpoint, headers=headers)  # Use requests to make the API call
         if response.status_code == 200:
-            events = response.json()
-            # return str(events)  # Convert to string for simple display
-            return json.dumps(events)  # Convert to a valid JSON string
+            response_json = response.json()
+            events = response_json.get('value',
+                                       [])  # Get the 'value' key from the response JSON, or an empty list if it doesn't exist
+            # return events  # Return the list of dictionaries directly
+            return json.dumps(events)  # Return the list of dictionaries as a JSON string
         else:
-            return f'Error: {response.status_code}', response.status_code  # Handle error responses
-    return redirect(url_for('auth.login_outlook'))  # in fetch_outlook_events
+            print(f'Error: {response.status_code}')  # Log the error for debugging
+            return events  # Return an empty list in case of an error
+
+    # return events  # Return an empty list if 'outlook_token' is not in session
+    return json.dumps(events)

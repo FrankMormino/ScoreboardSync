@@ -9,6 +9,7 @@ from flask import (
     send_from_directory
 )
 from app.calendar_integration import calendar_integration  # Import the calendar_integration Blueprint
+from app.data_synchronization import synchronize_data
 from app.forms import LinkCalendarForm, NotificationConfigForm
 from app.auth import auth
 
@@ -55,6 +56,12 @@ def api_events():
     # Assume get_events is a function that fetches events from your data store
     events = get_events()
     return jsonify(events)
+
+
+@app.route('/trigger_sync', methods=['GET'])
+def trigger_sync():
+    synchronize_data()  # Assuming synchronize_data is imported from data_synchronization.py
+    return "Synchronization triggered", 200
 
 
 @app.route('/static/<path:filename>')
