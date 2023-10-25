@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DTEND:20231024T224739Z
+LOCATION:Brick American Baseball League\, 2000 Lanes Mill Rd\, Brick Township\, NJ 08724\, USA
+DTSTART:20231024T213539Z
+SUMMARY:Joey ⚾ Game baseball
+UID:event-id-4333@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231025T034739Z
+LOCATION:Soccer Field\, 123 Main St\, Sample City\, NJ 12345\, USA
+DTSTART:20231025T024339Z
+SUMMARY:Adelina ⚽ Scrimmage soccer
+UID:event-id-4717@google.com
+END:VEVENT
+END:VCALENDAR

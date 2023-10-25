@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DTEND:20231026T194229Z
+LOCATION:Toms River East Little League\, 2195 Windsor Ave\, Toms River\, NJ 08753\, USA
+DTSTART:20231026T183329Z
+SUMMARY:Frankie 🏀 Camp basketball
+UID:chE7tHcYNWwzdQlKgX2rmWntY0@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231025T193429Z
+LOCATION:Tennis Court\, 101 Racket St\, Racketville\, NJ 13579\, USA
+DTSTART:20231025T181129Z
+SUMMARY:Joey 🎾 Tryout tennis
+UID:3Ro2L9a1f7EPRuhWUzxDYTPVkB@google.com
+END:VEVENT
+END:VCALENDAR

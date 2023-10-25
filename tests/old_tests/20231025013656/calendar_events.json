@@ -1,0 +1,332 @@
+[
+  {
+    "kind": "calendar#event",
+    "etag": "8197295654276271",
+    "id": "d1UZG2IxkQY6qJQah3vZJkmemW",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=wD5YT52yR9z65b8ALRtOmkSWKK",
+    "created": "2023-10-24T20:55:00.717709",
+    "updated": "2023-10-24T20:55:00.717709",
+    "summary": "Frankie \ud83c\udfc0 Clinic basketball",
+    "location": "Toms River East Little League, 2195 Windsor Ave, Toms River, NJ 08753, USA",
+    "creator": {
+      "email": "KJOLiMSO@tejuvmmw.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "jrtJoAGL@sprlcusv.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-29T04:35:00.717709",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-29T05:52:00.717709",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "b8DEUQHYMEQSS5cYWmXKmO0FSJ@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "3564201920200487",
+    "id": "3R2diZsYipoGbH0kelcF2ztTCd",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=4hYN6XdStStPOcKeVPVp1802Ed",
+    "created": "2023-10-24T20:55:00.720709",
+    "updated": "2023-10-24T20:55:00.720709",
+    "summary": "Andrew \ud83c\udfd0 Scrimmage volleyball",
+    "location": "Lake Riviera Middle School, 171 Beaverson Blvd, Brick Township, NJ 08723, USA",
+    "creator": {
+      "email": "DQxvsOAo@wdtmxxps.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "VMGMmwBA@ltbptznm.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-28T09:52:00.720709",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-28T11:44:00.720709",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "q9oabr21zitb7Mj0zBii5YOVUf@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "6641703260170921",
+    "id": "DGNtJfJ2WdJdLLIOtAYPqmKv2i",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=c9sG6dseWTbta9NI83XhDoAKMo",
+    "created": "2023-10-24T20:55:00.720709",
+    "updated": "2023-10-24T20:55:00.720709",
+    "summary": "Joey \ud83c\udfc8 Clinic football",
+    "location": "Football Stadium, 456 Stadium Dr, Stadium City, NJ 54321, USA",
+    "creator": {
+      "email": "JapeVGfI@lmrpnwic.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "MLVclTPN@sybxghhj.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-27T02:58:00.720709",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-27T04:19:00.720709",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "JhvBn94b7VQ0iGcNXcDdCbhrQ9@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "2646744023958065",
+    "id": "4pDsCRceGPIQ2WRdfVuC4mL6UZ",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=qXzANyDQIZPNmxhGM4Ol5kXNWU",
+    "created": "2023-10-24T20:55:00.721710",
+    "updated": "2023-10-24T20:55:00.721710",
+    "summary": "Andrew \ud83c\udfc8 Practice football",
+    "location": "Football Stadium, 456 Stadium Dr, Stadium City, NJ 54321, USA",
+    "creator": {
+      "email": "nErveqgO@pcltqizk.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "LTQnWrWT@hmdpdqzz.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-29T15:29:00.720709",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-29T17:28:00.720709",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "G04x7chBPpJDvNWM2b6ajkjw5F@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "4016401997919048",
+    "id": "e8Ox0y9Jnu901INZ6YSSDZ3CcC",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=vmY3AHjsDWEb5a8fVvwT1I4SLM",
+    "created": "2023-10-24T20:55:00.721710",
+    "updated": "2023-10-24T20:55:00.721710",
+    "summary": "Joey \ud83e\udd4e Clinic softball",
+    "location": "Drum Point Sports Complex, Brick Blvd, Brick Township, NJ 08723, USA",
+    "creator": {
+      "email": "gruhgUFE@fvxqpiza.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "TmGFmCGX@ghbqagne.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-29T22:03:00.721710",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-29T23:05:00.721710",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "TuL6x80Cr9awCDjbnvx1hmAFTp@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "8188364233029628",
+    "id": "mMg8bg6Ji2syXtWv4KjC6OazKw",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=CkkGWc9ny5IXyHOYAjYnlFAqZT",
+    "created": "2023-10-24T20:55:00.721710",
+    "updated": "2023-10-24T20:55:00.721710",
+    "summary": "Avery \u26be Practice baseball",
+    "location": "Brick American Baseball League, 2000 Lanes Mill Rd, Brick Township, NJ 08724, USA",
+    "creator": {
+      "email": "mmEJbpYs@ytotisoe.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "AZHouihm@ueobubot.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-28T02:51:00.721710",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-28T04:24:00.721710",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "Umw5xJGk0KxWRCr5mefyiSYokg@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "2624681029588306",
+    "id": "gQP4uvfgSTqZam6JnFzMVpJpUl",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=hTadYB1cgNyFwnrWKWi9drYRn0",
+    "created": "2023-10-24T20:55:00.722709",
+    "updated": "2023-10-24T20:55:00.722709",
+    "summary": "Andrew \ud83e\udd4e Tryout softball",
+    "location": "Drum Point Sports Complex, Brick Blvd, Brick Township, NJ 08723, USA",
+    "creator": {
+      "email": "sQZSDcTY@hujuesjk.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "sjTiukWI@khqipffc.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-28T23:04:00.722709",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-29T00:06:00.722709",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "lyu3kEIFk6HbhydS3TnFL8A8gW@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "7620483575752120",
+    "id": "YtBAQaaCYu8JBGnYc2JzPhIZtO",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=RAo4xVMtf2uAfl4u0OboGi9UJ9",
+    "created": "2023-10-24T20:55:00.722709",
+    "updated": "2023-10-24T20:55:00.722709",
+    "summary": "Frankie \ud83c\udfd2 Tryout hockey",
+    "location": "Hockey Arena, 789 Ice Rink Rd, Ice City, NJ 67890, USA",
+    "creator": {
+      "email": "KutKrLJv@moucoveb.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "XkrLIijr@pzmrwfxd.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-26T04:36:00.722709",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-26T06:21:00.722709",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "seTMWi7oNSFAGDoEN7Ajwbj1zw@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "0321383304319898",
+    "id": "fxBFOLBWd6JCzgMxFdrT71qaBP",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=ubv2ugchy7XO6y3geqZ7lXykOQ",
+    "created": "2023-10-24T20:55:00.722709",
+    "updated": "2023-10-24T20:55:00.722709",
+    "summary": "Dominic \ud83c\udfc0 Tryout basketball",
+    "location": "Toms River East Little League, 2195 Windsor Ave, Toms River, NJ 08753, USA",
+    "creator": {
+      "email": "APPtvNgN@sakwsakj.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "HZeJYQBp@mqxgaonv.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-30T10:32:00.722709",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-30T12:09:00.722709",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "PKzfIVBGGXwSQol7EIqXz6vIXt@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  },
+  {
+    "kind": "calendar#event",
+    "etag": "5043206942976132",
+    "id": "NPxuVsYy9hbviL3reEF5eEFhA3",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=sPYRn3w8r5vRcJ0FHzgeM5v4Qb",
+    "created": "2023-10-24T20:55:00.723709",
+    "updated": "2023-10-24T20:55:00.723709",
+    "summary": "Adelina \ud83c\udfc8 Clinic football",
+    "location": "Football Stadium, 456 Stadium Dr, Stadium City, NJ 54321, USA",
+    "creator": {
+      "email": "RLDyVQAu@umuchqjb.com",
+      "self": true
+    },
+    "organizer": {
+      "email": "mEBISSsF@xbubvmez.com",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2023-10-29T03:41:00.723709",
+      "timeZone": "America/New_York"
+    },
+    "end": {
+      "dateTime": "2023-10-29T04:52:00.723709",
+      "timeZone": "America/New_York"
+    },
+    "iCalUID": "knosiUMaeDmIxN6xj7Atxmyuf4@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": true
+    },
+    "eventType": "default"
+  }
+]

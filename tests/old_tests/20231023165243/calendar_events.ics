@@ -1,0 +1,354 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DTEND:20231029T062904Z
+LOCATION:Toms River East Little League\, 2195 Windsor Ave\, Toms River\, NJ 08753\, USA
+DTSTART:20231029T044504Z
+SUMMARY:Adelina 🏀 Game basketball
+UID:event-id-2459@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231024T225704Z
+LOCATION:Soccer Field\, 123 Main St\, Sample City\, NJ 12345\, USA
+DTSTART:20231024T212604Z
+SUMMARY:Avery ⚽ Camp soccer
+UID:event-id-2539@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231025T090804Z
+LOCATION:Drum Point Sports Complex\, Brick Blvd\, Brick Township\, NJ 08723\, USA
+DTSTART:20231025T073304Z
+SUMMARY:Adelina 🥎 Camp softball
+UID:event-id-429@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231024T142104Z
+LOCATION:Lake Riviera Middle School\, 171 Beaverson Blvd\, Brick Township\, NJ 08723\, USA
+DTSTART:20231024T131304Z
+SUMMARY:Mackenzie 🏐 Practice volleyball
+UID:event-id-2433@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231028T053104Z
+LOCATION:Football Stadium\, 456 Stadium Dr\, Stadium City\, NJ 54321\, USA
+DTSTART:20231028T042104Z
+SUMMARY:Mackenzie 🏈 Camp football
+UID:event-id-5206@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231025T125304Z
+LOCATION:Toms River East Little League\, 2195 Windsor Ave\, Toms River\, NJ 08753\, USA
+DTSTART:20231025T113604Z
+SUMMARY:Mackenzie 🏀 Tryout basketball
+UID:event-id-9785@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231028T013404Z
+LOCATION:Hockey Arena\, 789 Ice Rink Rd\, Ice City\, NJ 67890\, USA
+DTSTART:20231028T000904Z
+SUMMARY:Olivia 🏒 Camp hockey
+UID:event-id-3229@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231027T184304Z
+LOCATION:Brick American Baseball League\, 2000 Lanes Mill Rd\, Brick Township\, NJ 08724\, USA
+DTSTART:20231027T171404Z
+SUMMARY:Dominic ⚾ Camp baseball
+UID:event-id-8729@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231024T220504Z
+LOCATION:Drum Point Sports Complex\, Brick Blvd\, Brick Township\, NJ 08723\, USA
+DTSTART:20231024T200604Z
+SUMMARY:Joey 🥎 Practice softball
+UID:event-id-7883@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231027T033804Z
+LOCATION:Football Stadium\, 456 Stadium Dr\, Stadium City\, NJ 54321\, USA
+DTSTART:20231027T014804Z
+SUMMARY:Frankie 🏈 Game football
+UID:event-id-8767@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231024T210404Z
+LOCATION:Tennis Court\, 101 Racket St\, Racketville\, NJ 13579\, USA
+DTSTART:20231024T193004Z
+SUMMARY:Emma 🎾 Practice tennis
+UID:event-id-2682@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231027T033904Z
+LOCATION:Soccer Field\, 123 Main St\, Sample City\, NJ 12345\, USA
+DTSTART:20231027T020204Z
+SUMMARY:Olivia ⚽ Tournament soccer
+UID:event-id-4176@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231026T042204Z
+LOCATION:Hockey Arena\, 789 Ice Rink Rd\, Ice City\, NJ 67890\, USA
+DTSTART:20231026T023004Z
+SUMMARY:Dominic 🏒 Match hockey
+UID:event-id-6988@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231028T123204Z
+LOCATION:Lake Riviera Middle School\, 171 Beaverson Blvd\, Brick Township\, NJ 08723\, USA
+DTSTART:20231028T103904Z
+SUMMARY:Kalee 🏐 Tournament volleyball
+UID:event-id-6890@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231027T112604Z
+LOCATION:Brick American Baseball League\, 2000 Lanes Mill Rd\, Brick Township\, NJ 08724\, USA
+DTSTART:20231027T095804Z
+SUMMARY:Joey ⚾ Tryout baseball
+UID:event-id-8560@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231027T092104Z
+LOCATION:Hockey Arena\, 789 Ice Rink Rd\, Ice City\, NJ 67890\, USA
+DTSTART:20231027T081104Z
+SUMMARY:Mackenzie 🏒 Game hockey
+UID:event-id-868@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231027T122804Z
+LOCATION:Tennis Court\, 101 Racket St\, Racketville\, NJ 13579\, USA
+DTSTART:20231027T110504Z
+SUMMARY:Joey 🎾 Clinic tennis
+UID:event-id-1774@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231027T231704Z
+LOCATION:Football Stadium\, 456 Stadium Dr\, Stadium City\, NJ 54321\, USA
+DTSTART:20231027T221104Z
+SUMMARY:Dominic 🏈 Camp football
+UID:event-id-7454@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231028T024404Z
+LOCATION:Toms River East Little League\, 2195 Windsor Ave\, Toms River\, NJ 08753\, USA
+DTSTART:20231028T011104Z
+SUMMARY:Dominic 🏀 Clinic basketball
+UID:event-id-5034@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231026T093004Z
+LOCATION:Football Stadium\, 456 Stadium Dr\, Stadium City\, NJ 54321\, USA
+DTSTART:20231026T082504Z
+SUMMARY:Dominic 🏈 Scrimmage football
+UID:event-id-6082@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231028T024204Z
+LOCATION:Football Stadium\, 456 Stadium Dr\, Stadium City\, NJ 54321\, USA
+DTSTART:20231028T010704Z
+SUMMARY:Avery 🏈 Game football
+UID:event-id-6992@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231029T110804Z
+LOCATION:Tennis Court\, 101 Racket St\, Racketville\, NJ 13579\, USA
+DTSTART:20231029T095504Z
+SUMMARY:Olivia 🎾 Game tennis
+UID:event-id-498@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231025T142104Z
+LOCATION:Tennis Court\, 101 Racket St\, Racketville\, NJ 13579\, USA
+DTSTART:20231025T122404Z
+SUMMARY:Avery 🎾 Clinic tennis
+UID:event-id-5899@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231027T033604Z
+LOCATION:Drum Point Sports Complex\, Brick Blvd\, Brick Township\, NJ 08723\, USA
+DTSTART:20231027T021704Z
+SUMMARY:Avery 🥎 Clinic softball
+UID:event-id-5587@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231026T185604Z
+LOCATION:Brick American Baseball League\, 2000 Lanes Mill Rd\, Brick Township\, NJ 08724\, USA
+DTSTART:20231026T165604Z
+SUMMARY:Joey ⚾ Match baseball
+UID:event-id-8043@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231027T082504Z
+LOCATION:Soccer Field\, 123 Main St\, Sample City\, NJ 12345\, USA
+DTSTART:20231027T065304Z
+SUMMARY:Dominic ⚽ Clinic soccer
+UID:event-id-4084@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231025T060404Z
+LOCATION:Soccer Field\, 123 Main St\, Sample City\, NJ 12345\, USA
+DTSTART:20231025T043904Z
+SUMMARY:Emma ⚽ Tryout soccer
+UID:event-id-6546@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231029T075804Z
+LOCATION:Brick American Baseball League\, 2000 Lanes Mill Rd\, Brick Township\, NJ 08724\, USA
+DTSTART:20231029T064504Z
+SUMMARY:Emma ⚾ Tournament baseball
+UID:event-id-2182@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231029T012404Z
+LOCATION:Soccer Field\, 123 Main St\, Sample City\, NJ 12345\, USA
+DTSTART:20231029T000204Z
+SUMMARY:Joey ⚽ Practice soccer
+UID:event-id-3621@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231024T182204Z
+LOCATION:Brick American Baseball League\, 2000 Lanes Mill Rd\, Brick Township\, NJ 08724\, USA
+DTSTART:20231024T171804Z
+SUMMARY:Joey ⚾ Clinic baseball
+UID:event-id-9390@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231028T214604Z
+LOCATION:Football Stadium\, 456 Stadium Dr\, Stadium City\, NJ 54321\, USA
+DTSTART:20231028T202604Z
+SUMMARY:Adelina 🏈 Practice football
+UID:event-id-7404@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231027T122204Z
+LOCATION:Lake Riviera Middle School\, 171 Beaverson Blvd\, Brick Township\, NJ 08723\, USA
+DTSTART:20231027T111404Z
+SUMMARY:Olivia 🏐 Game volleyball
+UID:event-id-3168@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231028T190104Z
+LOCATION:Drum Point Sports Complex\, Brick Blvd\, Brick Township\, NJ 08723\, USA
+DTSTART:20231028T172604Z
+SUMMARY:Andrew 🥎 Match softball
+UID:event-id-2220@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231027T220504Z
+LOCATION:Football Stadium\, 456 Stadium Dr\, Stadium City\, NJ 54321\, USA
+DTSTART:20231027T201404Z
+SUMMARY:Adelina 🏈 Game football
+UID:event-id-3808@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231027T041004Z
+LOCATION:Tennis Court\, 101 Racket St\, Racketville\, NJ 13579\, USA
+DTSTART:20231027T023004Z
+SUMMARY:Emma 🎾 Clinic tennis
+UID:event-id-3281@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231028T082104Z
+LOCATION:Football Stadium\, 456 Stadium Dr\, Stadium City\, NJ 54321\, USA
+DTSTART:20231028T064004Z
+SUMMARY:Kalee 🏈 Scrimmage football
+UID:event-id-8735@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231027T200403Z
+LOCATION:Toms River East Little League\, 2195 Windsor Ave\, Toms River\, NJ 08753\, USA
+DTSTART:20231027T184903Z
+SUMMARY:Avery 🏀 Camp basketball
+UID:event-id-9838@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231026T223204Z
+LOCATION:Tennis Court\, 101 Racket St\, Racketville\, NJ 13579\, USA
+DTSTART:20231026T204804Z
+SUMMARY:Olivia 🎾 Clinic tennis
+UID:event-id-8778@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231029T131604Z
+LOCATION:Drum Point Sports Complex\, Brick Blvd\, Brick Township\, NJ 08723\, USA
+DTSTART:20231029T114304Z
+SUMMARY:Emma 🥎 Practice softball
+UID:event-id-4982@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231026T212404Z
+LOCATION:Drum Point Sports Complex\, Brick Blvd\, Brick Township\, NJ 08723\, USA
+DTSTART:20231026T193404Z
+SUMMARY:Dominic 🥎 Game softball
+UID:event-id-2609@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231026T174504Z
+LOCATION:Drum Point Sports Complex\, Brick Blvd\, Brick Township\, NJ 08723\, USA
+DTSTART:20231026T162704Z
+SUMMARY:Frankie 🥎 Scrimmage softball
+UID:event-id-6257@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231028T155604Z
+LOCATION:Tennis Court\, 101 Racket St\, Racketville\, NJ 13579\, USA
+DTSTART:20231028T145004Z
+SUMMARY:Adelina 🎾 Tournament tennis
+UID:event-id-8239@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231027T064804Z
+LOCATION:Toms River East Little League\, 2195 Windsor Ave\, Toms River\, NJ 08753\, USA
+DTSTART:20231027T053204Z
+SUMMARY:Adelina 🏀 Game basketball
+UID:event-id-6201@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231027T084804Z
+LOCATION:Drum Point Sports Complex\, Brick Blvd\, Brick Township\, NJ 08723\, USA
+DTSTART:20231027T072004Z
+SUMMARY:Adelina 🥎 Game softball
+UID:event-id-9105@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231025T094904Z
+LOCATION:Lake Riviera Middle School\, 171 Beaverson Blvd\, Brick Township\, NJ 08723\, USA
+DTSTART:20231025T083804Z
+SUMMARY:Olivia 🏐 Scrimmage volleyball
+UID:event-id-6025@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231027T054104Z
+LOCATION:Hockey Arena\, 789 Ice Rink Rd\, Ice City\, NJ 67890\, USA
+DTSTART:20231027T042904Z
+SUMMARY:Emma 🏒 Camp hockey
+UID:event-id-5314@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231028T021904Z
+LOCATION:Lake Riviera Middle School\, 171 Beaverson Blvd\, Brick Township\, NJ 08723\, USA
+DTSTART:20231028T005804Z
+SUMMARY:Kalee 🏐 Practice volleyball
+UID:event-id-2584@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231028T135904Z
+LOCATION:Drum Point Sports Complex\, Brick Blvd\, Brick Township\, NJ 08723\, USA
+DTSTART:20231028T121404Z
+SUMMARY:Olivia 🥎 Clinic softball
+UID:event-id-3792@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231026T110004Z
+LOCATION:Tennis Court\, 101 Racket St\, Racketville\, NJ 13579\, USA
+DTSTART:20231026T100004Z
+SUMMARY:Dominic 🎾 Camp tennis
+UID:event-id-9202@google.com
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20231027T012904Z
+LOCATION:Drum Point Sports Complex\, Brick Blvd\, Brick Township\, NJ 08723\, USA
+DTSTART:20231027T002804Z
+SUMMARY:Joey 🥎 Clinic softball
+UID:event-id-9557@google.com
+END:VEVENT
+END:VCALENDAR
