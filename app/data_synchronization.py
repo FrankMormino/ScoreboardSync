@@ -21,6 +21,9 @@ def save_to_db(events):
         db = client["calendar_db"]
         mongo_collection = db["events"]
 
+        # Create a set to store the iCalUID of events in the new data
+        new_event_ids = set() # This is a set of unique values
+
         for event in events:
             # Log the id value of all events
             print(f"Event id value: {event.get('id')}")
@@ -57,6 +60,12 @@ def save_to_db(events):
                 print(f"Inserting event into MongoDB: {event}")
                 mongo_collection.insert_one(event)
 
+            # Add the iCalUID to the set of new event IDs
+            new_event_ids.add(iCalUID)
+
+        # Remove events in MongoDB that are not in the new data
+        mongo_collection.delete_many({"iCalUID": {"$nin": list(new_event_ids)}})
+
     except Exception as e:
         print(f"Error while saving events to MongoDB: {str(e)}")
     finally:
@@ -64,20 +73,25 @@ def save_to_db(events):
 
 
 
+
 def synchronize_data():
     try:
+        # Fetch Google and Outlook events separately
         google_events_json = fetch_google_events()
         outlook_events_json = fetch_outlook_events()
 
         google_events = json.loads(google_events_json)
         outlook_events = json.loads(outlook_events_json)
 
-        all_events = google_events + outlook_events
-        save_to_db(all_events)  # Save the events to the database
+        # Save Google events to the database
+        save_to_db(google_events)
+
+        # Save Outlook events to the database
+        save_to_db(outlook_events)
+
     except Exception as e:
         print(f"Error while synchronizing data: {str(e)}")
 
-
-# Schedule the synchronize_data function to run every hour
-scheduler.add_job(synchronize_data, 'interval', minutes=2)  # Change to hours=1 for production
+# Schedule the synchronize_data function to run every 5 seconds
+scheduler.add_job(synchronize_data, 'interval', minutes=5)
 scheduler.start()
